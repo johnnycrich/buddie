@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="sfx_wave_bank">Wave Bank
+{
+    Name = sfx_wave_bank;
+    Xbox File = Xbox\sfx_wave_bank.xwb;
+    Windows File = Win\sfx_wave_bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = sfx_compression;
+    Bank Last Revised Low = 2539735609;
+    Bank Last Revised High = 30053358;
+
+    Wave
+    {
+        Name = arrow_move;
+        File = ..\..\..\..\..\SFX\GUI\arrow_move.wav;
+        Build Settings Last Modified Low = 2539735609;
+        Build Settings Last Modified High = 30053358;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 29952;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 21236992;
+            Last Modified High = 29967473;
+        }
+    }
+
+    Wave
+    {
+        Name = select;
+        File = ..\..\..\..\..\SFX\GUI\select.wav;
+        Build Settings Last Modified Low = 1800684869;
+        Build Settings Last Modified High = 29992238;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 22464;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4011574288;
+            Last Modified High = 29967472;
+        }
+    }
+
+    Wave
+    {
+        Name = switch;
+        File = ..\..\..\..\..\SFX\GUI\switch.wav;
+        Build Settings Last Modified Low = 2563693320;
+        Build Settings Last Modified High = 29992239;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 22464;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1185026176;
+            Last Modified High = 29967469;
+        }
+    }
+
+    Wave
+    {
+        Name = bell;
+        File = ..\..\..\..\..\SFX\Alerts\bell.wav;
+        Build Settings Last Modified Low = 3489708174;
+        Build Settings Last Modified High = 29998882;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1451416;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3162583997;
+            Last Modified High = 29998881;
+        }
+    }
+
+    Wave
+    {
+        Name = meat;
+        File = ..\..\..\..\..\SFX\Alerts\meat.wav;
+        Build Settings Last Modified Low = 1470628736;
+        Build Settings Last Modified High = 30004859;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 531284;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3015306032;
+            Last Modified High = 30004858;
+        }
+    }
+
+    Wave
+    {
+        Name = oil;
+        File = ..\..\..\..\..\SFX\Alerts\oil.wav;
+        Build Settings Last Modified Low = 1470718736;
+        Build Settings Last Modified High = 30004859;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 839636;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2268266032;
+            Last Modified High = 30004858;
+        }
+    }
+
+    Wave
+    {
+        Name = chop;
+        File = ..\..\..\..\..\SFX\Alerts\chop.wav;
+        Build Settings Last Modified Low = 3724878736;
+        Build Settings Last Modified High = 30004859;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 486756;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3501018736;
+            Last Modified High = 30004859;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

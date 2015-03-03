@@ -1,0 +1,49 @@
+#region Using Statements
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
+using GarageGames.Torque.Platform;
+using GarageGames.Torque.Core;
+using GarageGames.Torque.Sim;
+using GarageGames.Torque.GUI;
+using GarageGames.Torque.T2D;
+#endregion
+
+namespace BuddieMain.GUI
+{
+    /// <summary>
+    /// Displays the splash for transitions
+    /// </summary>
+    public class Transition : GUISceneview, IGUIScreen
+    {
+        //======================================================
+        #region Constructors
+        public Transition()
+        {
+            GUIStyle backgroundStyle = new GUIStyle();
+
+            backgroundStyle.PreserveAspectRatio = true;
+            backgroundStyle.IsOpaque = false;
+            backgroundStyle.Bitmap = @"data\images\gui\level_transition";
+
+            this.Name = "Transition";
+            this.Style = backgroundStyle;
+       
+            this.Size = new Vector2(1280.0f, 720.0f);
+            //this.OnFadeFinished = OnSplashFinished;
+        }
+        #endregion
+
+        //======================================================
+        #region Private, protected, internal fields
+
+        InputMap introInputMap;
+        ColorCollection color;
+
+        #endregion
+    }
+}

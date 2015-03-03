@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!--Torque X Builder - http://www.garagegames.com-->
+<!--Type: Scene-->
+<!--Target: TorqueX-->
+<!--Version: 2-->
+<!--Creator: Torque X Builder-->
+<TorqueSceneData>
+    <Version>1.0</Version>
+    <SceneData>
+        <ObjectTypeDeclaration>
+            <LockTypes>true</LockTypes>
+            <ObjectTypes>
+                <string>t2dScrollerType</string>
+                <string>t2dSpriteType</string>
+                <string>t2dAnimatedSpriteType</string>
+                <string>t2dParticleEffectType</string>
+                <string>t2dTileLayerType</string>
+                <string>TileType</string>
+            </ObjectTypes>
+        </ObjectTypeDeclaration>
+        <T2DSceneGraph name="DefaultSceneGraph">
+            <T2DSceneContainer>
+                <BinSize>20</BinSize>
+                <BinCount>256</BinCount>
+            </T2DSceneContainer>
+        </T2DSceneGraph>
+        <Camera2D name="">
+            <CenterPosition>
+                <X>0</X>
+                <Y>0</Y>
+            </CenterPosition>
+            <Extent>
+                <X>100</X>
+                <Y>75</Y>
+            </Extent>
+            <UseCameraWorldLimits>false</UseCameraWorldLimits>
+        </Camera2D>
+    </SceneData>
+    <Materials>
+        <SimpleMaterial name="cookingMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/hobbies/cooking.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="sportsMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/hobbies/sports.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="techMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/hobbies/tech.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="musicMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/hobbies/music.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="outdoorsMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/hobbies/outdoors.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="booksMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/hobbies/books.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="buddie_orangeMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/buddie_orange.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="buddie_aniMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/buddie_ani.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>3</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="clothes_shoesMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/props/clothes_shoes.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>1</CellCountX>
+                <CellCountY>3</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="clothes_pantsMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/props/clothes_pants.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>1</CellCountX>
+                <CellCountY>4</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="arrow_mainMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/arrow_main.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="clothes_shirtsMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/props/clothes_shirts.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>7</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="buddie_blinkMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/buddie_blink.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>4</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="buddiesmMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/buddie-sm.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="food_infoboxMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/food_infobox.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="olive_oilMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/food/olive_oil.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="arrow_chooseMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/arrow_choose.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="food_healthMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/food_health.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>4</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="arrow_choose_upMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/arrow_choose_up.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="thought_bubbleMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/thought_bubble.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="pepperMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/food/pepper.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="oil_panMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/food/oil_pan.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="biker_lt" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/biker_lt.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="biker_md" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/biker_md.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="biker_dk" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/biker_dk.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="ditzy_lt" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/ditzy_lt.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="ditzy_md" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/ditzy_md.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="ditzy_dk" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/ditzy_dk.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="goth_lt" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/goth_lt.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="goth_md" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/goth_md.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="goth_dk" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/goth_dk.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="jock_lt" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/jock_lt.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="jock_md" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/jock_md.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="jock_dk" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/jock_dk.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="nerd_lt" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/nerd_lt.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="nerd_md" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/nerd_md.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="nerd_dk" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/nerd_dk.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="carrotsMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/food/carrots.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="bedroomMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/scenes/bedroom.jpg</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="margarineMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/food/margarine.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="butterMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/food/butter.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="arrow_choose_leftMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/arrow_choose_left.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="arrow_choose_rightMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/arrow_choose_right.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="arrow_mainMaterial1" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/arrow_main.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="stovenewMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/scenes/stove-new.jpg</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="smilies_aniMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/smilies_ani.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>4</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="finishMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/finish.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="main_buddieMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/main/main_buddie.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="logoMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/main/logo.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="HouseMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/scenes/House.jpg</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="speech_bubble_ltMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/speech_bubble_lt.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="chapter1Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/main/chapter1.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>3</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="chapter2Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/main/chapter2.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>4</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="chapter3Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/main/chapter3.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>4</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="kitchenMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/scenes/kitchen.jpg</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="finish_keyboardMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/finish_keyboard.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="choose_chapter_keyboardMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/choose_chapter_keyboard.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="choose_chapter_padMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/choose_chapter_pad.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_02_01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/02_01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_02_02Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/02_02.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_02_03Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/02_03.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_02_04Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/02_04.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="level_overlayMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/tutorial/level_overlay.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_02_results_01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/02_results_01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_02_results_02Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/02_results_02.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_02_results_03Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/02_results_03.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_02_results_04Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/02_results_04.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="level2_restart_noMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/level2_restart_no.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="level2_restart_yesMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/level2_restart_yes.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_results_01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_results_01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_results_02Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_results_02.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_results_03Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_results_03.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_results_04Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_results_04.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_results_05Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_results_05.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_results_06Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_results_06.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_results_07Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_results_07.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_results_08Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_results_08.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_02Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_02.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_03Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_03.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_04Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_04.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_05Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_05.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_06Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_06.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_07Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_07.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_08Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_08.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_09Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_09.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_10Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_10.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_11Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_11.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_results_01Material1" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_results_01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_results_02Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_results_02.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_results_03Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_results_03.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_results_04Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_results_04.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_results_05Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_results_05.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_results_06Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_results_06.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_results_07Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_results_07.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_results_08Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_results_08.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="intro_01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/intro_01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="intro_02Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/intro_02.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="speech_bubble_dadMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/speech_bubble_dad.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_intro_01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_intro_01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_01_intro_02Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/01_intro_02.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_02_intro_01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/02_intro_01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_02_intro_02Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/02_intro_02.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_intro_01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_intro_01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_intro_02Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_intro_02.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_intro_03Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_intro_03.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_intro_04Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_intro_04.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_intro_05Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_intro_05.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_intro_05Material1" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_intro_05.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_intro_06Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_intro_06.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_intro_07Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_intro_07.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="credits_overlayMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/credits_overlay.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_results_09Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_results_09.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_results_10Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_results_10.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_results_11Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_results_11.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="creditsMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/credits.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="kitchen2Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/scenes/kitchen2.jpg</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_intro_08Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_intro_08.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="cafeteriaMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/scenes/cafeteria.jpg</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="cafeterialeftMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/scenes/cafeteria-left.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="bgMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/main/bg.jpg</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="arrow_choose_up_aniMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/arrow_choose_up_ani.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>10</CellCountX>
+                <CellCountY>10</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="intro_03Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/intro_03.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="potatoMaterial1" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/food/potato.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="hobbiesMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/props/hobbies.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>12</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="exit_game_padMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/main/exit_game_pad.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="exit_game_keyMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/main/exit_game_key.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="dadMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/chars/dad.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_intro_09Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_intro_09.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_intro_08Material1" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_intro_08.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_03_intro_09Material1" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/03_intro_09.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="step2_food1Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/food/step2_food1.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="step2_food2Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/food/step2_food2.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="step2_food3Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/food/step2_food3.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>2</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="taste_health_knobMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/taste_health_knob.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="potatoMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/food/potato.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="level_transitionMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/level_transition.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="start_game_keyboardMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/main/start_game_keyboard.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="start_game_padMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/main/start_game_pad.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="_02_06Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/speech/02_06.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="exit_game_padMaterial1" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gui/exit_game_pad.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+    </Materials>
+    <Objects>
+        <T2DCollisionMaterial name="DefaultCollisionMaterial">
+            <Restitution>1</Restitution>
+            <Friction>0.3</Friction>
+            <Priority>0</Priority>
+        </T2DCollisionMaterial>
+        <AnimationData name="buddie_aniAnimation">
+            <Material nameRef="buddie_aniMaterial" />
+            <AnimationFrames>0 1 2</AnimationFrames>
+            <AnimationDuration>0.1</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="clothes_shoesAnimation">
+            <Material nameRef="clothes_shoesMaterial" />
+            <AnimationFrames>0 1 2</AnimationFrames>
+            <AnimationDuration>0.1</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="clothes_pantsAnimation">
+            <Material nameRef="clothes_pantsMaterial" />
+            <AnimationFrames>0 1 2 3</AnimationFrames>
+            <AnimationDuration>0.133333</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="arrow_mainAnimation">
+            <Material nameRef="arrow_mainMaterial" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="clothes_shirtsAnimation">
+            <Material nameRef="clothes_shirtsMaterial" />
+            <AnimationFrames>0 1 2 3 4 5 6</AnimationFrames>
+            <AnimationDuration>7</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="buddie_blinkAnimation">
+            <Material nameRef="buddie_blinkMaterial" />
+            <AnimationFrames>0 1 2 3</AnimationFrames>
+            <AnimationDuration>0.133333</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="food_healthAnimation">
+            <Material nameRef="food_healthMaterial" />
+            <AnimationFrames>0 1 2 3</AnimationFrames>
+            <AnimationDuration>0.133333</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="biker_mdAnimation">
+            <Material nameRef="biker_md" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="biker_ltAnimation">
+            <Material nameRef="biker_lt" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="biker_dkAnimation">
+            <Material nameRef="biker_dk" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="ditzy_ltAnimation">
+            <Material nameRef="ditzy_lt" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="ditzy_mdAnimation">
+            <Material nameRef="ditzy_md" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="ditzy_dkAnimation">
+            <Material nameRef="ditzy_dk" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="goth_ltAnimation">
+            <Material nameRef="goth_lt" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="goth_mdAnimation">
+            <Material nameRef="goth_md" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="goth_dkAnimation">
+            <Material nameRef="goth_dk" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="jock_ltAnimation">
+            <Material nameRef="jock_lt" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="jock_mdAnimation">
+            <Material nameRef="jock_md" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="jock_dkAnimation">
+            <Material nameRef="jock_dk" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="nerd_ltAnimation">
+            <Material nameRef="nerd_lt" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="nerd_mdAnimation">
+            <Material nameRef="nerd_md" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="nerd_dkAnimation">
+            <Material nameRef="nerd_dk" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="arrow_choose_leftAnimation">
+            <Material nameRef="arrow_choose_leftMaterial" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="arrow_choose_rightAnimation">
+            <Material nameRef="arrow_choose_rightMaterial" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="arrow_mainAnimation1">
+            <Material nameRef="arrow_mainMaterial1" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="smilies_aniAnimation">
+            <Material nameRef="smilies_aniMaterial" />
+            <AnimationFrames>0 1 2 3</AnimationFrames>
+            <AnimationDuration>0.133333</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="chapter1Animation">
+            <Material nameRef="chapter1Material" />
+            <AnimationFrames>0 1 2</AnimationFrames>
+            <AnimationDuration>0.1</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="chapter2Animation">
+            <Material nameRef="chapter2Material" />
+            <AnimationFrames>0 1 2 3</AnimationFrames>
+            <AnimationDuration>0.133333</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="chapter3Animation">
+            <Material nameRef="chapter3Material" />
+            <AnimationFrames>0 1 2 3</AnimationFrames>
+            <AnimationDuration>0.133333</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="arrow_choose_up_aniAnimation">
+            <Material nameRef="arrow_choose_up_aniMaterial" />
+            <AnimationFrames>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99</AnimationFrames>
+            <AnimationDuration>3.3332</AnimationDuration>
+            <AnimationCycle>true</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="hobbiesAnimation">
+            <Material nameRef="hobbiesMaterial" />
+            <AnimationFrames>0 1 2 3 4 5 6 7 8 9 10 11</AnimationFrames>
+            <AnimationDuration>0.4</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="step2_food1Animation">
+            <Material nameRef="step2_food1Material" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="step2_food2Animation">
+            <Material nameRef="step2_food2Material" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="step2_food3Animation">
+            <Material nameRef="step2_food3Material" />
+            <AnimationFrames>0 1</AnimationFrames>
+            <AnimationDuration>0.0666667</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+    </Objects>
+</TorqueSceneData>

@@ -1,0 +1,605 @@
+#region Using Statements
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Diagnostics;
+
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.GamerServices;
+
+using GarageGames.Torque.Core;
+using GarageGames.Torque.Sim;
+using GarageGames.Torque.T2D;
+using GarageGames.Torque.Materials;
+using GarageGames.Torque.Platform;
+using GarageGames.Torque.GFX;
+#endregion
+
+namespace BuddieMain.Logic
+{
+    [TorqueXmlSchemaType]
+    public class MainLogic
+    {
+        #region Variable Definitions
+        T2DSceneObject buddie;
+        T2DSceneObject background;
+        T2DSceneObject choose_gui;
+        T2DSceneObject exit_game_gui;
+        TorqueSafePtr<T2DSceneObject> speech_bubble;
+        TorqueSafePtr<T2DSceneObject> speech_object;
+        TorqueSafePtr<T2DSceneObject> start_bg;
+        TorqueSafePtr<T2DSceneObject> start_gui;
+        TorqueSafePtr<T2DSceneObject> logo;
+
+        T2DAnimatedSprite chapter1;
+        T2DAnimatedSprite chapter2;
+        T2DAnimatedSprite chapter3;
+        T2DAnimatedSprite select_arrow;
+
+        int selectedChapter;
+        int _dialogueCue = 0;
+
+        bool _started = false;
+        bool _initalizing = false;
+        bool _initialized = false;
+        bool chapter1Chosen = false;
+        bool exiting = false;
+
+        bool logoResized = false;
+        bool logoRepositioned = false;
+
+        List<T2DAnimatedSprite> chapters;
+        float backgroundYPos = 10.607f;
+
+        Stopwatch dialogueWait;
+        #endregion
+
+        public MainLogic()
+        {
+            chapter1 = TorqueObjectDatabase.Instance.FindObject<T2DAnimatedSprite>("chapter1");
+            chapter2 = TorqueObjectDatabase.Instance.FindObject<T2DAnimatedSprite>("chapter2");
+            chapter3 = TorqueObjectDatabase.Instance.FindObject<T2DAnimatedSprite>("chapter3");
+
+            select_arrow = TorqueObjectDatabase.Instance.FindObject<T2DAnimatedSprite>("select_arrow");
+
+            background = TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("bg");
+            start_bg.Object = TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("start_bg");
+            buddie = TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("buddie");
+            speech_bubble.Object = TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("speech_bubble");
+
+            logo.Object = TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("logo");
+
+            if (Game.controllerFlag == true)
+            {
+                exit_game_gui = TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("exit_game_pad");
+                choose_gui = TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("choose_pad");
+                start_gui.Object = TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("start_pad");
+            }
+            else
+            {
+                exit_game_gui = TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("exit_game_pad");
+                choose_gui = TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("choose_keyboard");
+                start_gui.Object = TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("start_key");
+            }
+
+            start_gui.Object.Visible = true;
+
+            Game._audioHandler.LoadSounds("main_menu");
+
+            T2DAnimatedSprite[] chapterList = { chapter1, chapter2, chapter3 };
+
+            chapters = new List<T2DAnimatedSprite>(chapterList);
+
+            select_arrow.Mount(chapters[Game.Instance._levelStartMount], "mount", false);
+
+            if (Game.Instance._menuReturn)
+            {
+                _started = true;
+                _initalizing = false;
+
+                start_bg.Object.Visible = false;
+                start_gui.Object.Visible = false;
+
+                buddie.Position = new Vector2(97.45f, buddie.Position.Y);
+
+                logo.Object.Position = new Vector2(-46.966f, -28.464f);
+                logo.Object.Size = new Vector2(47.949f, 25.762f);
+
+                Initialize();
+            }
+        }
+
+        private void Initialize()
+        {
+            if (Game.Instance._level2locked)
+            {
+                chapter2.SetAnimationFrame(2);
+            }
+            else
+            {
+                chapter2.SetAnimationFrame(0);
+
+            }
+
+            if (Game.Instance._level3locked)
+            {
+                chapter3.SetAnimationFrame(2);
+            }
+            else
+            {
+                chapter3.SetAnimationFrame(0);
+            }
+
+            // Override above frame selections dependng on where arrow is
+            selectedChapter = Game.Instance._levelStartMount;
+
+            if (selectedChapter != 0)
+            {
+                _dialogueCue++;
+            }
+
+            if (select_arrow.MountedTo == chapter1)
+            {
+                chapter1.SetAnimationFrame(1);
+            }
+            else if (select_arrow.MountedTo == chapter2)
+            {
+                chapter2.SetAnimationFrame(1);
+            }
+            else if (select_arrow.MountedTo == chapter3)
+            {
+                chapter3.SetAnimationFrame(1);
+            }
+
+            foreach (SignedInGamer signedInGamer in SignedInGamer.SignedInGamers)
+            {
+                signedInGamer.Presence.PresenceMode = GamerPresenceMode.StartingGame;
+            }
+
+            _initialized = true;
+            SetupInput();
+        }
+
+        private void SetupInput()
+        {
+            Game._globalInputMap.BindAction(Game.Instance._gamepadID, (int)XGamePadDevice.GamePadObjects.LeftThumbLeftButton, KeyLeftListen);
+            Game._globalInputMap.BindAction(Game.Instance._gamepadID, (int)XGamePadDevice.GamePadObjects.LeftThumbRightButton, KeyRightListen);
+            Game._globalInputMap.BindAction(Game.Instance._gamepadID, (int)XGamePadDevice.GamePadObjects.RightThumbLeftButton, KeyLeftListen);
+            Game._globalInputMap.BindAction(Game.Instance._gamepadID, (int)XGamePadDevice.GamePadObjects.RightThumbRightButton, KeyRightListen);
+            Game._globalInputMap.BindAction(Game.Instance._gamepadID, (int)XGamePadDevice.GamePadObjects.A, KeySelectListen);
+            Game._globalInputMap.BindAction(Game.Instance._gamepadID, (int)XGamePadDevice.GamePadObjects.Y, Game.Instance.ExitGame);
+
+            Game._globalInputMap.BindAction(Game.Instance._keyboardID, (int)Keys.Left, KeyLeftListen);
+            Game._globalInputMap.BindAction(Game.Instance._keyboardID, (int)Keys.Right, KeyRightListen);
+            Game._globalInputMap.BindAction(Game.Instance._keyboardID, (int)Keys.Space, KeySelectListen);
+            Game._globalInputMap.BindAction(Game.Instance._keyboardID, (int)Keys.Escape, Game.Instance.ExitGame);
+
+            InputManager.Instance.PushInputMap(Game._globalInputMap);
+        }
+
+        private void DialogueLogic()
+        {
+            dialogueWait = new Stopwatch();
+
+            dialogueWait.Start();
+
+            _dialogueCue++;
+
+            if (speech_object.Object != null)
+            {
+                speech_object.Object.Visible = false;
+            }
+
+            while (dialogueWait.IsRunning)
+            {
+                if (dialogueWait.Elapsed.Seconds > 1)
+                {
+                    dialogueWait.Stop();
+
+                    switch (_dialogueCue)
+                    {
+                        case 1:
+                            if (!Game.Instance._chapterChosen)
+                            {
+                                Game._audioHandler.PlayDialogue(false, 1);
+                                _initalizing = true;
+                            }
+                            else
+                            {
+                                buddie.Position = new Vector2(97.450f, buddie.Position.Y);
+                                Initialize();
+                            }
+                            break;
+                        case 2:
+                            Game._audioHandler.PlayDialogue(false, 4);
+                            break;
+                        case 3:
+                            Game._audioHandler.PlayDialogue(false, 5);
+                            break;
+                        case 4:
+                            exiting = true;
+                            SendToLevel();
+                            break;
+                    }
+                }
+            }
+        }
+
+        public void Update(GameTime gameTime)
+        {
+            if (_initialized)
+            {
+                if (chapter1Chosen)
+                {
+                    if (!exiting)
+                    {
+                        if (backgroundYPos > -10.036)
+                        {
+                            backgroundYPos -= 0.1f;
+                            background.Position = new Vector2(0.0f, backgroundYPos);
+                            if (background.Size.X < 184.070)
+                            {
+                                background.Size = new Vector2(background.Size.X + 0.1f, background.Size.Y + 0.1f);
+                            }
+                        }
+
+                        if (chapter1.VisibilityLevel > 0.000f)
+                        {
+                            chapter1.VisibilityLevel = chapter1.VisibilityLevel - .09f;
+                            chapter2.VisibilityLevel = chapter2.VisibilityLevel - .09f;
+                            chapter3.VisibilityLevel = chapter3.VisibilityLevel - .09f;
+                            select_arrow.VisibilityLevel = select_arrow.VisibilityLevel - .09f;
+                            exit_game_gui.VisibilityLevel = exit_game_gui.VisibilityLevel - .09f;
+                            choose_gui.VisibilityLevel = choose_gui.VisibilityLevel - .09f;
+                            logo.Object.VisibilityLevel = logo.Object.VisibilityLevel - .09f;
+                        }
+
+                        if (buddie.Position.X > 38.342f)
+                        {
+                            buddie.Position = new Vector2(buddie.Position.X - 0.99f, buddie.Position.Y);
+                        }
+                        else
+                        {
+                            if (Game._audioHandler._dialogueCue != null)
+                            {
+                                if (!Game._audioHandler._dialogueCue.IsPlaying)
+                                {
+                                    DialogueLogic();
+                                }
+                            }
+                            else
+                            {
+                                DialogueLogic();
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    if (chapter1.VisibilityLevel < 1.000f)
+                    {
+                        chapter1.VisibilityLevel = chapter1.VisibilityLevel + .05f;
+                        chapter2.VisibilityLevel = chapter2.VisibilityLevel + .05f;
+                        chapter3.VisibilityLevel = chapter3.VisibilityLevel + .05f;
+                        choose_gui.VisibilityLevel = choose_gui.VisibilityLevel + .05f;
+                        Console.WriteLine("choose_gui.VisibilityLevel: " + choose_gui.VisibilityLevel);
+                        exit_game_gui.VisibilityLevel = exit_game_gui.VisibilityLevel + .05f;
+                        select_arrow.VisibilityLevel = select_arrow.VisibilityLevel + .05f;
+                    }
+                }
+
+                if (selectedChapter != 0)
+                {
+                    if (Game.Instance.trialFlag)
+                    {
+                        chapters[selectedChapter].SetAnimationFrame(3);
+                    }
+                    else
+                    {
+                        if ((selectedChapter == 1 && Game.Instance._level2locked) || (selectedChapter == 2 && Game.Instance._level3locked))
+                        {
+                            chapters[selectedChapter].SetAnimationFrame(2);
+                        }
+                        else
+                        {
+                            chapters[selectedChapter].SetAnimationFrame(1);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                if (_initalizing)
+                {
+                    if (!Game._audioHandler._dialogueCue.IsPlaying)
+                    {
+                        if (buddie.Position.X < 97.45)
+                        {
+                            buddie.Position = new Vector2(buddie.Position.X + 0.49f, buddie.Position.Y);
+                        }
+                        else
+                        {
+                            _initalizing = false;
+                            Initialize();
+                        }
+
+                        if (chapter1.VisibilityLevel < 1.000f)
+                        {
+                            chapter1.VisibilityLevel = chapter1.VisibilityLevel + .05f;
+                            chapter2.VisibilityLevel = chapter2.VisibilityLevel + .05f;
+                            chapter3.VisibilityLevel = chapter3.VisibilityLevel + .05f;
+                            exit_game_gui.VisibilityLevel = exit_game_gui.VisibilityLevel + .05f;
+                            choose_gui.VisibilityLevel = choose_gui.VisibilityLevel + .05f;
+                            select_arrow.VisibilityLevel = select_arrow.VisibilityLevel + .05f;
+                        }
+                    }
+                }
+                // To be run if game not yet initalized (chapter icons not on correct frames)
+                else
+                {
+                    if (_started && !_initialized && Game._saveDeviceActive)
+                    {
+                        start_bg.Object.Visible = false;
+                        start_gui.Object.Visible = false;
+
+                        if (logo.Object.Position.X > -46.966 && logo.Object.Position.Y > -28.464)
+                        {
+                            logo.Object.Position = new Vector2(logo.Object.Position.X - 1.000f, logo.Object.Position.Y - 0.5f);
+                        }
+                        else
+                        {
+                            logoRepositioned = true;
+                        }
+
+                        if (logo.Object.Size.X > 47.949 && logo.Object.Size.Y > 25.762)
+                        {
+                            logo.Object.Size = new Vector2(logo.Object.Size.X - 0.79915f, logo.Object.Size.Y - 0.429366f);
+                        }
+                        else
+                        {
+                            logoResized = true;
+                        }
+
+                        if (logoRepositioned && logoResized)
+                        {
+                            DialogueLogic();
+                            _initalizing = true;
+                        }
+                    }
+                    else
+                    {
+                        // If controller and on Xbox, sign in
+                        if (Game.controllerFlag)
+                        {
+                            for (PlayerIndex index = PlayerIndex.One; index <= PlayerIndex.Four; index++)
+                            {
+                                if (GamePad.GetState(index).Buttons.A == ButtonState.Pressed)
+                                {
+                                    if (!Game.platformFlag)
+                                    {
+                                        Game.Instance.SetupPlayer(index);
+                                        _started = true;
+                                    }
+                                    else
+                                    {
+                                        Game.Instance._controllingGamer = Gamer.SignedInGamers[index];
+
+                                        if (Game.Instance._controllingGamer != null)
+                                        {
+                                            Game.Instance._controllingPlayer = index;
+                                            Game.Instance.SetupPlayer(index);
+                                            _started = true;
+                                            break;
+                                        }
+                                        else
+                                        {
+                                            Guide.ShowSignIn(1, false);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        else
+                        {
+                            if (Keyboard.GetState(PlayerIndex.One).IsKeyDown(Keys.Space))
+                            {
+                                Game.Instance.SetupPlayer(PlayerIndex.One);
+                                Game.keyboardFlag = true;
+                                _started = true;
+                            }
+                        }
+                    }
+                }
+            }
+
+            if (Game._audioHandler._dialogueCue != null)
+            {
+                if (!Game._audioHandler._dialogueCue.IsPlaying)
+                {
+                    speech_bubble.Object.Visible = false;
+                    speech_object.Object.Visible = false;
+                }
+                else
+                {
+                    speech_object.Object = TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("speech_" + _dialogueCue);
+
+                    if (speech_object.Object != null)
+                    {
+                        speech_object.Object.Position = new Vector2(speech_bubble.Object.Position.X, speech_bubble.Object.Position.Y - 3);
+                        speech_object.Object.Visible = true;
+                    }
+                    if (speech_bubble.Object != null)
+                    {
+                        speech_bubble.Object.Visible = true;
+                    }
+                }
+            }
+        }
+
+        private void SelectChapter(bool dir)
+        {
+            if ((selectedChapter == 1 && Game.Instance._level2locked) || (selectedChapter == 2 && Game.Instance._level3locked))
+            {
+                chapters[selectedChapter].SetAnimationFrame(2);
+            }
+            else
+            {
+                chapters[selectedChapter].SetAnimationFrame(0);
+            }
+
+            if (dir)
+            {
+                selectedChapter--;
+            }
+            else
+            {
+                selectedChapter++;
+            }
+
+            select_arrow.Mount(chapters[selectedChapter], "mount", false);
+
+            exit_game_gui.Visible = true;
+            choose_gui.Visible = true;
+
+            if (selectedChapter != 0)
+            {
+                if (Game.Instance.trialFlag)
+                {
+                    chapters[selectedChapter].SetAnimationFrame(3);
+                }
+                else
+                {
+                    if ((selectedChapter == 1 && Game.Instance._level2locked) || (selectedChapter == 2 && Game.Instance._level3locked))
+                    {
+                        chapters[selectedChapter].SetAnimationFrame(2);
+                        exit_game_gui.Visible = false;
+                        choose_gui.Visible = false;
+                    }
+                    else
+                    {
+                        chapters[selectedChapter].SetAnimationFrame(1);
+                    }
+                }
+            }
+            else
+            {
+                chapters[selectedChapter].SetAnimationFrame(1);
+            }
+        }
+
+        private void SendToLevel()
+        {
+            InputManager.Instance.PopInputMap(Game._globalInputMap);
+            InputManager.Instance.PopInputMap(Game._pauseInputMap);
+
+            foreach (SignedInGamer signedInGamer in SignedInGamer.SignedInGamers)
+            {
+                switch (selectedChapter)
+                {
+                    case 0:
+                        signedInGamer.Presence.PresenceMode = GamerPresenceMode.CustomizingPlayer;
+                        break;
+                    case 1:
+                        signedInGamer.Presence.PresenceMode = GamerPresenceMode.Level;
+                        signedInGamer.Presence.PresenceValue = 2;
+                        break;
+                    case 2:
+                        signedInGamer.Presence.PresenceMode = GamerPresenceMode.Level;
+                        signedInGamer.Presence.PresenceValue = 3;
+                        break;
+                }
+            }
+
+            Game.Instance._currentScene = "level" + (selectedChapter + 1);
+            Game.Instance.LoadScene();
+        }
+
+        #region Button Listeners
+        void KeyLeftListen(float val)
+        {
+            if (val > 0.0f)
+            {
+                if (selectedChapter != 0)
+                {
+                    SelectChapter(true);
+                }
+            }
+        }
+
+        void KeyRightListen(float val)
+        {
+            if (val > 0.0f)
+            {
+                if (selectedChapter != 2)
+                {
+                    SelectChapter(false);
+                }
+            }
+        }
+
+        void KeySelectListen(float val)
+        {
+            if (val > 0.0f)
+            {
+                if (selectedChapter == 0)
+                {
+                    chapter1Chosen = true;
+
+                    InputManager.Instance.PopInputMap(Game._globalInputMap);
+                    InputManager.Instance.PopInputMap(Game._pauseInputMap);
+                }
+                else
+                {
+                    if (Game.Instance.trialFlag)
+                    {
+                        if (Game.platformFlag)
+                        {
+                            try
+                            {
+                                SignedInGamer gamer = Gamer.SignedInGamers[Game.Instance._controllingPlayer];
+
+                                if (gamer != null)
+                                {
+                                    if (SignedInGamer.SignedInGamers[Game.Instance._controllingPlayer].Privileges.AllowPurchaseContent)
+                                    {
+                                        Guide.ShowMarketplace(Game.Instance._controllingPlayer);
+                                    }
+                                    else
+                                    {
+                                        Game.Instance._showBuyPrivelegesWarning = true;
+                                    }
+                                }
+                                else
+                                {
+                                    Guide.ShowSignIn(1, true);
+                                }
+                            }
+                            catch
+                            {
+
+                            }
+                        }
+                    }
+                    else
+                    {
+                        if (selectedChapter == 0)
+                        {
+                            SendToLevel();
+                        }
+                        else
+                        {
+                            if ((selectedChapter == 1 && !Game.Instance._level2locked) || (selectedChapter == 2 && !Game.Instance._level3locked))
+                            {
+                                SendToLevel();
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #endregion
+    }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+
+  <String Id="Feature_Title">Buddie's Busy Day Beta Testing Build</String>
+  <String Id="FeatureDirectX">DirectX 9.0c Installation</String>
+
+  <String Id="LaunchCondition_AdminPrivs">You must have Administrative rights on this machine to install [ProductName].</String>
+  <String Id="LaunchCondition_LaterVersion">A later version of [ProductName] is already installed.</String>
+  <String Id="LaunchCondition_Netfx20">[ProductName] requires the .NET Framework 2.0. Setup will now exit.</String>
+  <String Id="LaunchCondition_Xnafx20">[ProductName] requires the XNA Framework Redistribuable 2.0. Setup will now exit.</String>
+
+  <String Id="Property_ArpHelpLink">http://www.microsoft.com</String>
+  <String Id="Property_ArpUrlInfoAbout">http://www.microsoft.com</String>
+  <String Id="Property_ProductLanguage">1033</String>
+  <String Id="Property_ProductName">Buddie's Busy Day (Beta Testing Build)</String>
+  <String Id="Property_CompanyName">John Richardson and Emerson College Game Developers Association</String>
+
+  <String Id="Property_ProductCode">{F08B9EBE-246E-4B5A-BD3B-633AE0D8C69D}</String>
+  <String Id="Property_UpgradeCode">{62605B71-2128-45BF-BB66-AA126CBA855C}</String>
+
+  <String Id="Package_Description">Buddie's Busy Day (Beta Testing Build)</String>
+  <String Id="Package_Comments">Install Buddie's Busy Day (Beta Testing Build) to Windows.</String>
+
+</WixLocalization>

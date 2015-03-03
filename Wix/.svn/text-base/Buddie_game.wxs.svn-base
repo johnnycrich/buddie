@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="!(loc.Property_ProductCode)" UpgradeCode="!(loc.Property_UpgradeCode)" Name="!(loc.Property_ProductName)" Language="!(loc.Property_ProductLanguage)" Version="$(var.ProductVersion)" Manufacturer="!(loc.Property_CompanyName)">
+
+    <Package Description="!(loc.Package_Description)" Comments="!(loc.Package_Comments)" InstallerVersion="200" Compressed="yes" />
+
+    <Upgrade Id="!(loc.Property_UpgradeCode)">
+      <UpgradeVersion Minimum="$(var.ProductVersion)" OnlyDetect="yes" Property="NEWERVERSIONDETECTED" />
+      <UpgradeVersion Minimum="1.0.0" IncludeMinimum="yes" Maximum="$(var.ProductVersion)" IncludeMaximum="no" Property="OLDERVERSIONBEINGUPGRADED" />
+    </Upgrade>
+
+    <PropertyRef Id="NETFRAMEWORK20" />
+
+    <Property Id="XNAFRAMEWORK20" Secure="yes"> 
+      <RegistrySearch Id="XnaFramework20RegLocator" Root="HKLM" Key="SOFTWARE\Microsoft\XNA\Framework\v2.0" Name="NativeLibraryPath" Type="raw" /> 
+    </Property>
+
+    <Condition Message="!(loc.LaunchCondition_AdminPrivs)">
+      <![CDATA[Privileged]]>
+    </Condition>
+
+    <CustomAction Id="CA_BlockOlderVersionInstall" Error="!(loc.LaunchCondition_LaterVersion)" />
+
+    <CustomAction Id="CA_CheckForNetfx20" Error="!(loc.LaunchCondition_Netfx20)" /> 
+
+    <CustomAction Id="CA_CheckForXnafx20" Error="!(loc.LaunchCondition_Xnafx20)" />
+
+    <CustomAction Id="InstallDirectX" FileKey="DXSETUPEXE" ExeCommand="/silent" Execute="deferred" Impersonate="no" Return="check" />
+
+	  <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder" Name="Program Files">
+        <Directory Id="APPLICATIONFOLDER" Name="Buddie's Busy Day Beta" />
+      </Directory>
+    </Directory>
+
+    <Feature Id="Payload" Title="!(loc.Feature_Title)" Level="1">
+      <ComponentGroupRef Id="ComponentGroup1" />
+    </Feature>
+
+	<Feature Id="DirectXRedist"
+             Title="!(loc.FeatureDirectX)"
+             AllowAdvertise="no"
+             Display="hidden" Level="1">
+	  <ComponentRef Id="DirectXRedist"/>
+	</Feature>
+
+    <Media Id="1" Cabinet="buddie_game.cab" EmbedCab="yes" />
+
+    <InstallExecuteSequence>
+      <Custom Action="CA_BlockOlderVersionInstall" After="FindRelatedProducts">
+        <![CDATA[NEWERVERSIONDETECTED]]>
+      </Custom>
+      <RemoveExistingProducts After="InstallInitialize" />
+      <LaunchConditions After="AppSearch"/>
+      <Custom Action="CA_CheckForNetfx20" After="LaunchConditions">NOT NETFRAMEWORK20 AND NOT Installed</Custom>
+      <Custom Action="CA_CheckForXnafx20" After="CA_CheckForNetfx20">(NOT XNAFRAMEWORK20 = "C:\Program Files\Common Files\Microsoft Shared\XNA\Framework\v2.0\") AND NOT Installed</Custom>
+  	  <Custom Action="InstallDirectX" Before="InstallFinalize">
+		<![CDATA[NOT REMOVE]]>
+	  </Custom>
+	</InstallExecuteSequence>
+
+    <InstallUISequence>
+      <Custom Action="CA_BlockOlderVersionInstall" After="FindRelatedProducts">
+        <![CDATA[NEWERVERSIONDETECTED]]>
+      </Custom>
+      <LaunchConditions After="AppSearch"/>
+      <Custom Action="CA_CheckForNetfx20" After="LaunchConditions">NOT NETFRAMEWORK20 AND NOT Installed</Custom>
+      <Custom Action="CA_CheckForXnafx20" After="CA_CheckForNetfx20">(NOT XNAFRAMEWORK20 = "C:\Program Files\Common Files\Microsoft Shared\XNA\Framework\v2.0\") AND NOT Installed</Custom>
+	</InstallUISequence>
+
+	  <UI>
+		  <ProgressText Action="InstallDirectX">Installing Needed DirectX 9.0c Components</ProgressText>
+	  </UI>
+
+    <Property Id="ARPHELPLINK" Value="!(loc.Property_ArpHelpLink)" />
+    <Property Id="ARPURLINFOABOUT" Value="!(loc.Property_ArpUrlInfoAbout)" />
+
+    <Property Id="ALLUSERS">
+      <![CDATA[1]]>
+    </Property>
+
+    <UIRef Id="WixUI_InstallDir"/>
+    <Property Id="WIXUI_INSTALLDIR" Value="APPLICATIONFOLDER" />
+    <WixVariable Id="WixUILicenseRtf" Value="license.rtf" />
+
+  </Product>
+</Wix>

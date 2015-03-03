@@ -1,0 +1,7 @@
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\data\obj\Xbox 360\Release\ResolveAssemblyReference.cache
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\data\obj\Xbox 360\Release\sound\sfx.xml
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\data\obj\Xbox 360\Release\sound\level2.xml
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\data\obj\Xbox 360\Release\sound\main_menu.xml
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\data\obj\Xbox 360\Release\sound\level1.xml
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\data\obj\Xbox 360\Release\sound\level4.xml
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\data\obj\Xbox 360\Release\sound\level3_intro.xml

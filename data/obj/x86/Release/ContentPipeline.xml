@@ -1,0 +1,1767 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>images\gui\tutorial\level1\intro_1_pad.png</Source>
+      <Name>images\gui\tutorial\level1\intro_1_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level1\intro_1_pad.xnb</Output>
+      <Time>2009-02-25T23:14:24-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level1\intro_2_pad.png</Source>
+      <Name>images\gui\tutorial\level1\intro_2_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level1\intro_2_pad.xnb</Output>
+      <Time>2009-02-25T23:14:50-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level1\intro_3_pad.png</Source>
+      <Name>images\gui\tutorial\level1\intro_3_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level1\intro_3_pad.xnb</Output>
+      <Time>2009-05-16T18:36:34-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level_overlay.png</Source>
+      <Name>images\gui\tutorial\level_overlay</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level_overlay.xnb</Output>
+      <Time>2009-03-13T00:57:32-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\speech_bubble.png</Source>
+      <Name>images\gui\speech_bubble</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\speech_bubble.xnb</Output>
+      <Time>2009-03-14T03:05:42-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\level2_splash.png</Source>
+      <Name>images\gui\level2_splash</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\level2_splash.xnb</Output>
+      <Time>2009-05-16T22:51:14-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\speech_bubble_lt.png</Source>
+      <Name>images\gui\speech_bubble_lt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\speech_bubble_lt.xnb</Output>
+      <Time>2009-03-22T00:07:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level1\intro_1_keyboard.png</Source>
+      <Name>images\gui\tutorial\level1\intro_1_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level1\intro_1_keyboard.xnb</Output>
+      <Time>2009-04-04T20:56:48-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level1\intro_2_keyboard.png</Source>
+      <Name>images\gui\tutorial\level1\intro_2_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level1\intro_2_keyboard.xnb</Output>
+      <Time>2009-04-04T20:59:22-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level1\intro_3_keyboard.png</Source>
+      <Name>images\gui\tutorial\level1\intro_3_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level1\intro_3_keyboard.xnb</Output>
+      <Time>2009-04-04T20:59:38-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level2\intro_1_keyboard.png</Source>
+      <Name>images\gui\tutorial\level2\intro_1_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level2\intro_1_keyboard.xnb</Output>
+      <Time>2009-04-05T19:45:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level2\intro_2_keyboard.png</Source>
+      <Name>images\gui\tutorial\level2\intro_2_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level2\intro_2_keyboard.xnb</Output>
+      <Time>2009-04-12T00:41:18-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level2\intro_3_keyboard.png</Source>
+      <Name>images\gui\tutorial\level2\intro_3_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level2\intro_3_keyboard.xnb</Output>
+      <Time>2009-04-05T19:45:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level3\intro_1_keyboard.png</Source>
+      <Name>images\gui\tutorial\level3\intro_1_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level3\intro_1_keyboard.xnb</Output>
+      <Time>2009-08-07T22:46:06-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level3\intro_1_pad.png</Source>
+      <Name>images\gui\tutorial\level3\intro_1_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level3\intro_1_pad.xnb</Output>
+      <Time>2009-08-07T22:44:50-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\begin_keyboard.png</Source>
+      <Name>images\gui\tutorial\begin_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\begin_keyboard.xnb</Output>
+      <Time>2009-04-17T00:49:48-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\begin_pad.png</Source>
+      <Name>images\gui\tutorial\begin_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\begin_pad.xnb</Output>
+      <Time>2009-04-17T00:49:34-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\more_keyboard.png</Source>
+      <Name>images\gui\tutorial\more_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\more_keyboard.xnb</Output>
+      <Time>2009-04-17T00:51:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\more_pad.png</Source>
+      <Name>images\gui\tutorial\more_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\more_pad.xnb</Output>
+      <Time>2009-04-17T00:50:36-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level2\intro_1_pad.png</Source>
+      <Name>images\gui\tutorial\level2\intro_1_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level2\intro_1_pad.xnb</Output>
+      <Time>2009-04-17T01:07:32-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level2\intro_2_pad.png</Source>
+      <Name>images\gui\tutorial\level2\intro_2_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level2\intro_2_pad.xnb</Output>
+      <Time>2009-04-17T01:09:38-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level2\intro_3_pad.png</Source>
+      <Name>images\gui\tutorial\level2\intro_3_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level2\intro_3_pad.xnb</Output>
+      <Time>2009-04-17T01:15:04-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level2\intro_4.png</Source>
+      <Name>images\gui\tutorial\level2\intro_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level2\intro_4.xnb</Output>
+      <Time>2009-04-12T00:20:04-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level2\intro_5.png</Source>
+      <Name>images\gui\tutorial\level2\intro_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level2\intro_5.xnb</Output>
+      <Time>2009-04-05T19:45:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\level1_splash.png</Source>
+      <Name>images\gui\level1_splash</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\level1_splash.xnb</Output>
+      <Time>2009-05-16T22:51:54-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\level3_splash.png</Source>
+      <Name>images\gui\level3_splash</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\level3_splash.xnb</Output>
+      <Time>2009-05-16T22:50:38-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\level_transition.png</Source>
+      <Name>images\gui\level_transition</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\level_transition.xnb</Output>
+      <Time>2009-05-12T01:12:24-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\intro\1.jpg</Source>
+      <Name>images\gui\intro\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\intro\1.xnb</Output>
+      <Time>2009-05-16T03:49:20-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\intro\2.jpg</Source>
+      <Name>images\gui\intro\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\intro\2.xnb</Output>
+      <Time>2009-05-16T04:15:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\intro\3.jpg</Source>
+      <Name>images\gui\intro\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\intro\3.xnb</Output>
+      <Time>2009-05-16T03:51:08-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\intro\4.jpg</Source>
+      <Name>images\gui\intro\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\intro\4.xnb</Output>
+      <Time>2010-08-10T00:35:22.5441432-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\scenes\cafeteria-left.png</Source>
+      <Name>images\scenes\cafeteria-left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\scenes\cafeteria-left.xnb</Output>
+      <Time>2009-07-20T00:24:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\scenes\cafeteria.jpg</Source>
+      <Name>images\scenes\cafeteria</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\scenes\cafeteria.xnb</Output>
+      <Time>2009-07-20T00:25:40-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\level_paused_keyboard.png</Source>
+      <Name>images\gui\level_paused_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\level_paused_keyboard.xnb</Output>
+      <Time>2010-06-27T01:58:04-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\level_paused_pad.png</Source>
+      <Name>images\gui\level_paused_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\level_paused_pad.xnb</Output>
+      <Time>2010-06-20T23:26:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\arrow_choose_up_ani.png</Source>
+      <Name>images\gui\arrow_choose_up_ani</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\arrow_choose_up_ani.xnb</Output>
+      <Time>2008-10-22T00:14:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\intro_03.png</Source>
+      <Name>images\speech\intro_03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\intro_03.xnb</Output>
+      <Time>2009-07-29T01:09:00-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\props\hobbies.png</Source>
+      <Name>images\props\hobbies</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\props\hobbies.xnb</Output>
+      <Time>2009-08-13T17:47:28-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\main\exit_game_key.png</Source>
+      <Name>images\gui\main\exit_game_key</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\main\exit_game_key.xnb</Output>
+      <Time>2009-08-18T23:05:16-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\main\exit_game_pad.png</Source>
+      <Name>images\gui\main\exit_game_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\main\exit_game_pad.xnb</Output>
+      <Time>2009-08-18T22:55:04-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\dad.png</Source>
+      <Name>images\chars\dad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\dad.xnb</Output>
+      <Time>2009-08-20T23:29:28-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_intro_09.png</Source>
+      <Name>images\speech\03_intro_09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_intro_09.xnb</Output>
+      <Time>2009-05-16T03:23:42-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\food\step2_food1.png</Source>
+      <Name>images\food\step2_food1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\food\step2_food1.xnb</Output>
+      <Time>2009-08-21T23:40:28-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\food\step2_food2.png</Source>
+      <Name>images\food\step2_food2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\food\step2_food2.xnb</Output>
+      <Time>2009-08-21T23:48:36-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\food\step2_food3.png</Source>
+      <Name>images\food\step2_food3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\food\step2_food3.xnb</Output>
+      <Time>2009-08-21T23:47:32-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\taste_health_knob.png</Source>
+      <Name>images\gui\taste_health_knob</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\taste_health_knob.xnb</Output>
+      <Time>2009-08-24T16:31:54-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\main\start_game_keyboard.png</Source>
+      <Name>images\gui\main\start_game_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\main\start_game_keyboard.xnb</Output>
+      <Time>2009-08-25T22:49:30-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\main\start_game_pad.png</Source>
+      <Name>images\gui\main\start_game_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\main\start_game_pad.xnb</Output>
+      <Time>2009-08-25T22:47:36-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\02_06.png</Source>
+      <Name>images\speech\02_06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\02_06.xnb</Output>
+      <Time>2009-09-24T22:43:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\main_paused_keyboard.png</Source>
+      <Name>images\gui\main_paused_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\main_paused_keyboard.xnb</Output>
+      <Time>2010-06-27T01:58:52-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\main_paused_pad.png</Source>
+      <Name>images\gui\main_paused_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\main_paused_pad.xnb</Output>
+      <Time>2010-06-27T01:53:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\exit_game_pad.png</Source>
+      <Name>images\gui\exit_game_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\exit_game_pad.xnb</Output>
+      <Time>2010-07-03T21:40:00-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\hobbies\cooking.png</Source>
+      <Name>images\hobbies\cooking</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\hobbies\cooking.xnb</Output>
+      <Time>2008-10-08T11:40:32-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\hobbies\sports.png</Source>
+      <Name>images\hobbies\sports</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\hobbies\sports.xnb</Output>
+      <Time>2008-10-08T11:44:12-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\hobbies\tech.png</Source>
+      <Name>images\hobbies\tech</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\hobbies\tech.xnb</Output>
+      <Time>2008-10-08T11:41:40-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\hobbies\books.png</Source>
+      <Name>images\hobbies\books</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\hobbies\books.xnb</Output>
+      <Time>2008-10-08T11:42:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\hobbies\music.png</Source>
+      <Name>images\hobbies\music</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\hobbies\music.xnb</Output>
+      <Time>2008-10-08T11:39:02-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\hobbies\outdoors.png</Source>
+      <Name>images\hobbies\outdoors</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\hobbies\outdoors.xnb</Output>
+      <Time>2008-10-08T11:37:34-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\buddie_orange.png</Source>
+      <Name>images\chars\buddie_orange</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\buddie_orange.xnb</Output>
+      <Time>2008-07-29T23:24:42-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\ditzy.png</Source>
+      <Name>images\chars\ditzy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\ditzy.xnb</Output>
+      <Time>2008-08-14T22:29:24-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\biker.png</Source>
+      <Name>images\chars\biker</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\biker.xnb</Output>
+      <Time>2009-02-08T23:02:08-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\buddie_ani.png</Source>
+      <Name>images\chars\buddie_ani</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\buddie_ani.xnb</Output>
+      <Time>2008-08-17T20:34:08-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\scenes\bedroom.jpg</Source>
+      <Name>images\scenes\bedroom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\scenes\bedroom.xnb</Output>
+      <Time>2009-05-16T13:50:22-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\buddie-sm.png</Source>
+      <Name>images\chars\buddie-sm</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\buddie-sm.xnb</Output>
+      <Time>2008-08-19T22:54:44-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\props\clothes_shoes.png</Source>
+      <Name>images\props\clothes_shoes</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\props\clothes_shoes.xnb</Output>
+      <Time>2008-08-19T23:07:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\props\clothes_pants.png</Source>
+      <Name>images\props\clothes_pants</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\props\clothes_pants.xnb</Output>
+      <Time>2009-05-16T16:55:50-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\props\clothes_shirts.png</Source>
+      <Name>images\props\clothes_shirts</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\props\clothes_shirts.xnb</Output>
+      <Time>2009-05-16T17:09:26-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\buddie_blink.png</Source>
+      <Name>images\chars\buddie_blink</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\buddie_blink.xnb</Output>
+      <Time>2008-09-09T21:23:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\food_infobox.png</Source>
+      <Name>images\gui\food_infobox</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\food_infobox.xnb</Output>
+      <Time>2009-04-17T02:27:14-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\arrow_choose.png</Source>
+      <Name>images\gui\arrow_choose</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\arrow_choose.xnb</Output>
+      <Time>2008-09-17T15:06:16-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\food\margarine.png</Source>
+      <Name>images\food\margarine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\food\margarine.xnb</Output>
+      <Time>2009-02-14T01:37:44-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\food\olive_oil.png</Source>
+      <Name>images\food\olive_oil</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\food\olive_oil.xnb</Output>
+      <Time>2009-04-17T02:12:44-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\props\buddie_blink.png</Source>
+      <Name>images\props\buddie_blink</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\props\buddie_blink.xnb</Output>
+      <Time>2008-08-30T21:35:00-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\scenes\house.jpg</Source>
+      <Name>images\scenes\house</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\scenes\house.xnb</Output>
+      <Time>2009-04-05T00:52:36-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\food_health.png</Source>
+      <Name>images\gui\food_health</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\food_health.xnb</Output>
+      <Time>2008-09-23T23:07:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\food\potato.png</Source>
+      <Name>images\food\potato</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\food\potato.xnb</Output>
+      <Time>2009-02-14T01:41:04-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\arrow_choose_up.png</Source>
+      <Name>images\gui\arrow_choose_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\arrow_choose_up.xnb</Output>
+      <Time>2008-10-21T23:26:28-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\thought_bubble.png</Source>
+      <Name>images\gui\thought_bubble</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\thought_bubble.xnb</Output>
+      <Time>2008-10-14T23:31:26-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\food\pepper.png</Source>
+      <Name>images\food\pepper</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\food\pepper.xnb</Output>
+      <Time>2009-03-15T22:25:52-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\food\oil_pan.png</Source>
+      <Name>images\food\oil_pan</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\food\oil_pan.xnb</Output>
+      <Time>2008-11-05T01:17:26-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\food\butter.png</Source>
+      <Name>images\food\butter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\food\butter.xnb</Output>
+      <Time>2009-02-14T02:08:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\biker_dk.png</Source>
+      <Name>images\chars\biker_dk</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\biker_dk.xnb</Output>
+      <Time>2009-02-08T23:36:44-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\biker_md.png</Source>
+      <Name>images\chars\biker_md</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\biker_md.xnb</Output>
+      <Time>2009-02-08T23:30:00-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\biker_lt.png</Source>
+      <Name>images\chars\biker_lt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\biker_lt.xnb</Output>
+      <Time>2009-02-08T23:27:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\ditzy_dk.png</Source>
+      <Name>images\chars\ditzy_dk</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\ditzy_dk.xnb</Output>
+      <Time>2009-02-09T00:05:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\ditzy_lt.png</Source>
+      <Name>images\chars\ditzy_lt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\ditzy_lt.xnb</Output>
+      <Time>2009-02-09T00:08:36-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\ditzy_md.png</Source>
+      <Name>images\chars\ditzy_md</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\ditzy_md.xnb</Output>
+      <Time>2009-02-09T00:08:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\goth_dk.png</Source>
+      <Name>images\chars\goth_dk</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\goth_dk.xnb</Output>
+      <Time>2009-02-09T00:33:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\goth_lt.png</Source>
+      <Name>images\chars\goth_lt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\goth_lt.xnb</Output>
+      <Time>2009-02-09T00:20:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\goth_md.png</Source>
+      <Name>images\chars\goth_md</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\goth_md.xnb</Output>
+      <Time>2009-02-09T00:33:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\jock_dk.png</Source>
+      <Name>images\chars\jock_dk</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\jock_dk.xnb</Output>
+      <Time>2009-02-09T00:46:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\jock_lt.png</Source>
+      <Name>images\chars\jock_lt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\jock_lt.xnb</Output>
+      <Time>2009-02-09T00:47:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\jock_md.png</Source>
+      <Name>images\chars\jock_md</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\jock_md.xnb</Output>
+      <Time>2009-02-09T00:46:56-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\nerd_dk.png</Source>
+      <Name>images\chars\nerd_dk</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\nerd_dk.xnb</Output>
+      <Time>2009-02-09T01:03:26-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\nerd_lt.png</Source>
+      <Name>images\chars\nerd_lt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\nerd_lt.xnb</Output>
+      <Time>2009-02-09T01:04:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\chars\nerd_md.png</Source>
+      <Name>images\chars\nerd_md</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\chars\nerd_md.xnb</Output>
+      <Time>2009-02-09T01:03:42-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\food\carrots.png</Source>
+      <Name>images\food\carrots</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\food\carrots.xnb</Output>
+      <Time>2009-02-14T01:35:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\arrow_choose_left.png</Source>
+      <Name>images\gui\arrow_choose_left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\arrow_choose_left.xnb</Output>
+      <Time>2009-02-15T00:41:36-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\arrow_choose_right.png</Source>
+      <Name>images\gui\arrow_choose_right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\arrow_choose_right.xnb</Output>
+      <Time>2009-02-15T00:41:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\arrow_main.png</Source>
+      <Name>images\gui\arrow_main</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\arrow_main.xnb</Output>
+      <Time>2009-02-15T00:51:04-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\a_button.png</Source>
+      <Name>images\gui\a_button</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\a_button.xnb</Output>
+      <Time>2009-03-14T20:25:38-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\scenes\stove-new.jpg</Source>
+      <Name>images\scenes\stove-new</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\scenes\stove-new.xnb</Output>
+      <Time>2009-08-24T16:35:44-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\smilies_ani.png</Source>
+      <Name>images\gui\smilies_ani</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\smilies_ani.xnb</Output>
+      <Time>2009-03-21T22:45:40-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\finish.png</Source>
+      <Name>images\gui\finish</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\finish.xnb</Output>
+      <Time>2009-03-22T00:36:20-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\down_arrow_key.png</Source>
+      <Name>images\gui\down_arrow_key</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\down_arrow_key.xnb</Output>
+      <Time>2009-04-04T20:53:22-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\enter_key.png</Source>
+      <Name>images\gui\enter_key</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\enter_key.xnb</Output>
+      <Time>2009-04-04T20:37:22-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\left_arrow_key.png</Source>
+      <Name>images\gui\left_arrow_key</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\left_arrow_key.xnb</Output>
+      <Time>2009-04-04T20:52:26-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\right_arrow_key.png</Source>
+      <Name>images\gui\right_arrow_key</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\right_arrow_key.xnb</Output>
+      <Time>2009-04-04T20:24:12-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\up_arrow_key.png</Source>
+      <Name>images\gui\up_arrow_key</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\up_arrow_key.xnb</Output>
+      <Time>2009-04-04T20:42:54-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\main\bg.jpg</Source>
+      <Name>images\gui\main\bg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\main\bg.xnb</Output>
+      <Time>2009-04-04T21:24:32-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\main\logo.png</Source>
+      <Name>images\gui\main\logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\main\logo.xnb</Output>
+      <Time>2009-08-25T22:41:34-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\main\main_buddie.png</Source>
+      <Name>images\gui\main\main_buddie</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\main\main_buddie.xnb</Output>
+      <Time>2009-04-04T21:22:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\main\chapter1.png</Source>
+      <Name>images\gui\main\chapter1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\main\chapter1.xnb</Output>
+      <Time>2010-02-22T23:56:04-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\main\chapter2.png</Source>
+      <Name>images\gui\main\chapter2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\main\chapter2.xnb</Output>
+      <Time>2010-02-22T23:55:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\main\chapter3.png</Source>
+      <Name>images\gui\main\chapter3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\main\chapter3.xnb</Output>
+      <Time>2010-02-22T23:55:36-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\scenes\kitchen.jpg</Source>
+      <Name>images\scenes\kitchen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\scenes\kitchen.xnb</Output>
+      <Time>2009-05-16T15:17:26-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level3\intro_2_keyboard.png</Source>
+      <Name>images\gui\tutorial\level3\intro_2_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level3\intro_2_keyboard.xnb</Output>
+      <Time>2009-04-12T02:03:12-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level3\intro_2_pad.png</Source>
+      <Name>images\gui\tutorial\level3\intro_2_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level3\intro_2_pad.xnb</Output>
+      <Time>2009-04-12T01:29:44-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level3\intro_3_keyboard.png</Source>
+      <Name>images\gui\tutorial\level3\intro_3_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level3\intro_3_keyboard.xnb</Output>
+      <Time>2009-04-12T02:36:06-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level3\intro_3_pad.png</Source>
+      <Name>images\gui\tutorial\level3\intro_3_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level3\intro_3_pad.xnb</Output>
+      <Time>2009-04-12T02:36:18-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level3\intro_4.png</Source>
+      <Name>images\gui\tutorial\level3\intro_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level3\intro_4.xnb</Output>
+      <Time>2009-04-12T02:45:18-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\tutorial\level3\intro_5.png</Source>
+      <Name>images\gui\tutorial\level3\intro_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\tutorial\level3\intro_5.xnb</Output>
+      <Time>2009-04-12T02:53:42-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\02_01.png</Source>
+      <Name>images\speech\02_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\02_01.xnb</Output>
+      <Time>2009-04-15T22:57:12-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\02_02.png</Source>
+      <Name>images\speech\02_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\02_02.xnb</Output>
+      <Time>2009-04-15T22:58:24-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\02_03.png</Source>
+      <Name>images\speech\02_03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\02_03.xnb</Output>
+      <Time>2009-04-15T22:59:18-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\02_04.png</Source>
+      <Name>images\speech\02_04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\02_04.xnb</Output>
+      <Time>2009-04-15T23:00:16-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\choose_chapter_keyboard.png</Source>
+      <Name>images\gui\choose_chapter_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\choose_chapter_keyboard.xnb</Output>
+      <Time>2009-04-16T22:33:48-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\choose_chapter_pad.png</Source>
+      <Name>images\gui\choose_chapter_pad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\choose_chapter_pad.xnb</Output>
+      <Time>2009-04-16T22:28:14-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\finish_keyboard.png</Source>
+      <Name>images\gui\finish_keyboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\finish_keyboard.xnb</Output>
+      <Time>2009-04-16T20:57:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\02_results_01.png</Source>
+      <Name>images\speech\02_results_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\02_results_01.xnb</Output>
+      <Time>2009-05-05T21:29:02-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\02_results_02.png</Source>
+      <Name>images\speech\02_results_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\02_results_02.xnb</Output>
+      <Time>2009-05-05T21:30:14-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\02_results_03.png</Source>
+      <Name>images\speech\02_results_03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\02_results_03.xnb</Output>
+      <Time>2009-05-05T21:31:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\02_results_04.png</Source>
+      <Name>images\speech\02_results_04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\02_results_04.xnb</Output>
+      <Time>2009-05-05T21:33:48-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\level2_restart_no.png</Source>
+      <Name>images\gui\level2_restart_no</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\level2_restart_no.xnb</Output>
+      <Time>2009-05-05T23:20:16-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\level2_restart_yes.png</Source>
+      <Name>images\gui\level2_restart_yes</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\level2_restart_yes.xnb</Output>
+      <Time>2009-05-05T23:20:30-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_results_01.png</Source>
+      <Name>images\speech\03_results_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_results_01.xnb</Output>
+      <Time>2009-05-06T21:09:24-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_results_02.png</Source>
+      <Name>images\speech\03_results_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_results_02.xnb</Output>
+      <Time>2009-05-16T22:36:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_results_03.png</Source>
+      <Name>images\speech\03_results_03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_results_03.xnb</Output>
+      <Time>2009-05-06T21:11:12-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_results_04.png</Source>
+      <Name>images\speech\03_results_04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_results_04.xnb</Output>
+      <Time>2009-05-06T21:11:54-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_results_05.png</Source>
+      <Name>images\speech\03_results_05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_results_05.xnb</Output>
+      <Time>2009-05-06T21:14:12-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_results_06.png</Source>
+      <Name>images\speech\03_results_06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_results_06.xnb</Output>
+      <Time>2009-05-06T21:15:08-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_results_07.png</Source>
+      <Name>images\speech\03_results_07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_results_07.xnb</Output>
+      <Time>2009-05-06T21:15:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_results_08.png</Source>
+      <Name>images\speech\03_results_08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_results_08.xnb</Output>
+      <Time>2009-05-06T21:17:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_results_09.png</Source>
+      <Name>images\speech\03_results_09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_results_09.xnb</Output>
+      <Time>2009-05-16T13:56:00-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_results_10.png</Source>
+      <Name>images\speech\03_results_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_results_10.xnb</Output>
+      <Time>2009-05-16T13:58:00-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_01.png</Source>
+      <Name>images\speech\01_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_01.xnb</Output>
+      <Time>2009-05-07T00:27:42-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_02.png</Source>
+      <Name>images\speech\01_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_02.xnb</Output>
+      <Time>2009-05-07T00:28:44-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_03.png</Source>
+      <Name>images\speech\01_03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_03.xnb</Output>
+      <Time>2009-08-08T22:16:04-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_04.png</Source>
+      <Name>images\speech\01_04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_04.xnb</Output>
+      <Time>2009-05-07T00:33:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_05.png</Source>
+      <Name>images\speech\01_05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_05.xnb</Output>
+      <Time>2009-05-07T00:30:30-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_06.png</Source>
+      <Name>images\speech\01_06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_06.xnb</Output>
+      <Time>2009-05-07T00:31:54-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_07.png</Source>
+      <Name>images\speech\01_07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_07.xnb</Output>
+      <Time>2009-05-07T00:32:34-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_08.png</Source>
+      <Name>images\speech\01_08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_08.xnb</Output>
+      <Time>2009-05-07T00:35:14-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_09.png</Source>
+      <Name>images\speech\01_09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_09.xnb</Output>
+      <Time>2009-05-07T00:36:22-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_10.png</Source>
+      <Name>images\speech\01_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_10.xnb</Output>
+      <Time>2009-05-07T00:37:20-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_11.png</Source>
+      <Name>images\speech\01_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_11.xnb</Output>
+      <Time>2009-05-07T00:38:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_results_01.png</Source>
+      <Name>images\speech\01_results_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_results_01.xnb</Output>
+      <Time>2009-05-10T22:38:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_results_02.png</Source>
+      <Name>images\speech\01_results_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_results_02.xnb</Output>
+      <Time>2009-05-10T22:50:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_results_03.png</Source>
+      <Name>images\speech\01_results_03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_results_03.xnb</Output>
+      <Time>2009-05-10T22:51:44-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_results_04.png</Source>
+      <Name>images\speech\01_results_04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_results_04.xnb</Output>
+      <Time>2009-05-10T22:53:20-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_results_05.png</Source>
+      <Name>images\speech\01_results_05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_results_05.xnb</Output>
+      <Time>2009-05-10T22:55:12-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_results_06.png</Source>
+      <Name>images\speech\01_results_06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_results_06.xnb</Output>
+      <Time>2009-05-10T22:55:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_results_07.png</Source>
+      <Name>images\speech\01_results_07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_results_07.xnb</Output>
+      <Time>2009-05-10T22:56:42-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_results_08.png</Source>
+      <Name>images\speech\01_results_08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_results_08.xnb</Output>
+      <Time>2009-05-10T22:57:34-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\intro_01.png</Source>
+      <Name>images\speech\intro_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\intro_01.xnb</Output>
+      <Time>2009-05-14T19:09:34-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\intro_02.png</Source>
+      <Name>images\speech\intro_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\intro_02.xnb</Output>
+      <Time>2009-05-14T19:11:02-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\speech_bubble_dad.png</Source>
+      <Name>images\gui\speech_bubble_dad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\speech_bubble_dad.xnb</Output>
+      <Time>2009-05-15T20:40:52-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_intro_01.png</Source>
+      <Name>images\speech\01_intro_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_intro_01.xnb</Output>
+      <Time>2009-05-15T21:30:16-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\01_intro_02.png</Source>
+      <Name>images\speech\01_intro_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\01_intro_02.xnb</Output>
+      <Time>2009-05-15T21:31:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\02_intro_01.png</Source>
+      <Name>images\speech\02_intro_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\02_intro_01.xnb</Output>
+      <Time>2009-05-15T22:53:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\02_intro_02.png</Source>
+      <Name>images\speech\02_intro_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\02_intro_02.xnb</Output>
+      <Time>2009-05-15T22:53:44-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_intro_01.png</Source>
+      <Name>images\speech\03_intro_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_intro_01.xnb</Output>
+      <Time>2009-05-15T23:39:04-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_intro_02.png</Source>
+      <Name>images\speech\03_intro_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_intro_02.xnb</Output>
+      <Time>2009-05-15T23:39:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_intro_03.png</Source>
+      <Name>images\speech\03_intro_03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_intro_03.xnb</Output>
+      <Time>2009-05-15T23:41:26-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_intro_04.png</Source>
+      <Name>images\speech\03_intro_04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_intro_04.xnb</Output>
+      <Time>2009-05-15T23:42:04-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_intro_05.png</Source>
+      <Name>images\speech\03_intro_05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_intro_05.xnb</Output>
+      <Time>2009-05-16T22:24:44-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_intro_06.png</Source>
+      <Name>images\speech\03_intro_06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_intro_06.xnb</Output>
+      <Time>2009-08-23T18:48:22-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_intro_07.png</Source>
+      <Name>images\speech\03_intro_07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_intro_07.xnb</Output>
+      <Time>2009-05-15T23:47:02-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\credits_overlay.png</Source>
+      <Name>images\gui\credits_overlay</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\credits_overlay.xnb</Output>
+      <Time>2009-05-16T13:39:04-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_results_11.png</Source>
+      <Name>images\speech\03_results_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_results_11.xnb</Output>
+      <Time>2009-05-16T18:40:02-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gui\credits.png</Source>
+      <Name>images\gui\credits</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\gui\credits.xnb</Output>
+      <Time>2010-07-21T00:38:52.0286223-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\scenes\kitchen2.jpg</Source>
+      <Name>images\scenes\kitchen2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\scenes\kitchen2.xnb</Output>
+      <Time>2009-05-16T15:16:18-04:00</Time>
+    </Item>
+    <Item>
+      <Source>images\speech\03_intro_08.png</Source>
+      <Name>images\speech\03_intro_08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\images\speech\03_intro_08.xnb</Output>
+      <Time>2009-08-20T23:53:50-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\data\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\data\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\x86\Release\data\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2009-05-28T00:16:14-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2009-05-28T00:16:06-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-28T00:16:16-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2009-05-28T00:16:26-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2009-05-28T00:16:12-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2009-05-28T00:16:06-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-08-14T23:37:03.5778347-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

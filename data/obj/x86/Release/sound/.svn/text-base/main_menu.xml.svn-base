@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="main_menu_wave_bank">Wave Bank
+{
+    Name = main_menu_wave_bank;
+    Xbox File = Xbox\main_menu_wave_bank.xwb;
+    Windows File = Win\main_menu_wave_bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = main_compression;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 399451861;
+    PC Bank Last Modified High = 30021793;
+    Bank Last Revised Low = 65956016;
+    Bank Last Revised High = 30017554;
+
+    Wave
+    {
+        Name = menu_01;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\menu_01.wav;
+        Build Settings Last Modified Low = 2491368560;
+        Build Settings Last Modified High = 29992015;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1021952;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 229289472;
+            Last Modified High = 30019593;
+        }
+    }
+
+    Wave
+    {
+        Name = menu_02;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\menu_02.wav;
+        Build Settings Last Modified Low = 2491378560;
+        Build Settings Last Modified High = 29992015;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 675840;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4132335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = menu_03;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\menu_03.wav;
+        Build Settings Last Modified Low = 2491388560;
+        Build Settings Last Modified High = 29992015;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 720896;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4132335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = menu_04;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\menu_04.wav;
+        Build Settings Last Modified Low = 2071465792;
+        Build Settings Last Modified High = 30004673;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1307908;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4032793088;
+            Last Modified High = 30004672;
+        }
+    }
+
+    Wave
+    {
+        Name = menu_05;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\menu_05.wav;
+        Build Settings Last Modified Low = 2071545792;
+        Build Settings Last Modified High = 30004673;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 961652;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3052793088;
+            Last Modified High = 30004672;
+        }
+    }
+
+    Wave
+    {
+        Name = music;
+        File = ..\..\..\..\..\..\..\Music\Master\Main.wav;
+        Build Settings Last Modified Low = 4206143312;
+        Build Settings Last Modified High = 30017553;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 19353560;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3831189504;
+            Last Modified High = 30016701;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

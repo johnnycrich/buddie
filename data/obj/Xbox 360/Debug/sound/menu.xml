@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="menu_wave_bank">Wave Bank
+{
+    Name = menu_wave_bank;
+    Xbox File = Xbox\menu_wave_bank.xwb;
+    Windows File = Win\menu_wave_bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 3483187232;
+    PC Bank Last Modified High = 29991408;
+    Bank Last Revised Low = 3358277232;
+    Bank Last Revised High = 29991408;
+
+    Wave
+    {
+        Name = MENU_01;
+        File = C:\Users\John\Documents\Buddie's Busy Day\Dialogue\Buddie Dialogue\Converted\MENU_01.wav;
+        Build Settings Last Modified Low = 2703977232;
+        Build Settings Last Modified High = 29991408;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1021952;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4121446336;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = MENU_02;
+        File = C:\Users\John\Documents\Buddie's Busy Day\Dialogue\Buddie Dialogue\Converted\MENU_02.wav;
+        Build Settings Last Modified Low = 2703977232;
+        Build Settings Last Modified High = 29991408;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 675840;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4121906382;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = MENU_03;
+        File = C:\Users\John\Documents\Buddie's Busy Day\Dialogue\Buddie Dialogue\Converted\MENU_03.wav;
+        Build Settings Last Modified Low = 2703987232;
+        Build Settings Last Modified High = 29991408;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 720896;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4122336425;
+            Last Modified High = 29991204;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

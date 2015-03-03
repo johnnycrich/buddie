@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="level3_wave_bank">Wave Bank
+{
+    Name = level3_wave_bank;
+    Xbox File = Xbox\level3_wave_bank.xwb;
+    Windows File = Win\level3_wave_bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;

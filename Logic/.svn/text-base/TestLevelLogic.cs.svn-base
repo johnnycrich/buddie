@@ -1,0 +1,37 @@
+#region Using Statements
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+
+using GarageGames.Torque.Core;
+using GarageGames.Torque.Sim;
+using GarageGames.Torque.T2D;
+using GarageGames.Torque.Materials;
+using GarageGames.Torque.Platform;
+using GarageGames.Torque.GFX;
+using GarageGames.Torque.GUI;
+
+using BuddieMain.GUI;
+#endregion
+
+namespace BuddieMain.Logic
+{
+    public class TestLevelLogic
+    {
+        public TestLevelLogic()
+        {
+
+            Level2Intro = new LevelSplash();
+            GUICanvas.Instance.PushDialogControl(Level2Intro, 0);
+            GUICanvas.Instance.RenderFrame();
+
+        }
+
+        LevelSplash Level2Intro;
+    }
+}

@@ -1,0 +1,451 @@
+2ad13eee6fa841bda91b098408436428
+0
+Johnny
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\
+129269953000000000
+Default Thumbnail
+2010-08-16T00:49:37.2517409Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\EasyStorage.dll
+2010-08-22T23:02:27.3270139Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\Game.application
+2010-08-23T01:09:43.3187677Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\Game.exe
+2010-08-23T01:02:28.7629125Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\Game.exe.manifest
+2010-08-23T01:09:43.2807655Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\GarageGames.TorqueX.Framework.dll
+2010-08-17T18:31:22.0000000Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\GarageGames.TorqueX.Framework2D.dll
+2010-08-17T18:31:22.0000000Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\torqueSettings.xml
+2010-08-15T21:23:42.4861972Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\ja\EasyStorage.resources.dll
+2010-08-22T23:02:28.2410662Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\it\EasyStorage.resources.dll
+2010-08-22T23:02:28.0470551Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\fr\EasyStorage.resources.dll
+2010-08-22T23:02:27.8710451Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\es\EasyStorage.resources.dll
+2010-08-22T23:02:27.7100358Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\de\EasyStorage.resources.dll
+2010-08-22T23:02:27.5050241Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\level1.xgs
+2010-08-22T23:04:02.7874740Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\level1_sound_bank.xsb
+2010-08-22T23:04:16.8092760Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\level1_wave_bank.xwb
+2010-08-22T23:04:16.8072759Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\level2.xgs
+2010-08-22T23:03:31.8967071Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\level2_sound_bank.xsb
+2010-08-22T23:03:44.7834442Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\level2_wave_bank.xwb
+2010-08-22T23:03:44.7814441Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\level3_intro.xgs
+2010-08-22T23:04:35.4153402Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\level3_intro_sound_bank.xsb
+2010-08-22T23:04:48.1870707Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\level3_intro_wave_bank.xwb
+2010-08-22T23:04:48.1840705Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\level4.xgs
+2010-08-22T23:04:17.1922979Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\level4_sound_bank.xsb
+2010-08-22T23:04:35.0123171Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\level4_wave_bank.xwb
+2010-08-22T23:04:35.0093169Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\main_menu.xgs
+2010-08-23T01:09:41.7976807Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\main_menu_sound_bank.xsb
+2010-08-22T23:04:02.1684386Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\main_menu_wave_bank.xwb
+2010-08-22T23:04:02.1664384Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\report.txt
+2010-08-22T23:04:48.1930710Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\sfx.xgs
+2010-08-22T23:03:29.3695626Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\sfx_sound_bank.xsb
+2010-08-22T23:03:31.5116851Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\sound\sfx_wave_bank.xwb
+2010-08-22T23:03:31.5096850Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\levels\level1.txscene
+2009-08-24T22:58:10.0000000Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\levels\level2.txscene
+2009-09-30T05:28:36.0000000Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\levels\level2_end.txscene
+2009-08-25T02:35:18.0000000Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\levels\level3.txscene
+2010-02-28T23:44:10.0000000Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\levels\level3_end.txscene
+2009-08-24T22:58:10.0000000Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\levels\level3_play.txscene
+2009-08-24T22:56:04.0000000Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\levels\loading.txscene
+2010-02-22T02:45:34.0000000Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\levels\main.txscene
+2010-08-20T04:48:51.8354397Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_01.xnb
+2010-08-22T23:03:18.8919633Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_02.xnb
+2010-08-22T23:03:19.0169704Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_03.xnb
+2010-08-22T23:03:19.1669790Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_04.xnb
+2010-08-22T23:03:19.3359887Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_05.xnb
+2010-08-22T23:03:19.4879974Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_06.xnb
+2010-08-22T23:03:19.6260053Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_07.xnb
+2010-08-22T23:03:19.7900146Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_08.xnb
+2010-08-22T23:03:20.0190277Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_09.xnb
+2010-08-22T23:03:20.2800427Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_10.xnb
+2010-08-22T23:03:20.4850544Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_11.xnb
+2010-08-22T23:03:20.6540641Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_intro_01.xnb
+2010-08-22T23:03:22.9631961Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_intro_02.xnb
+2010-08-22T23:03:23.1692079Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_results_01.xnb
+2010-08-22T23:03:20.8270740Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_results_02.xnb
+2010-08-22T23:03:21.0190849Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_results_03.xnb
+2010-08-22T23:03:21.1880946Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_results_04.xnb
+2010-08-22T23:03:21.4121074Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_results_05.xnb
+2010-08-22T23:03:21.6231195Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_results_06.xnb
+2010-08-22T23:03:21.7771283Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_results_07.xnb
+2010-08-22T23:03:21.9551385Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\01_results_08.xnb
+2010-08-22T23:03:22.1111474Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\02_01.xnb
+2010-08-22T23:03:15.5517722Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\02_02.xnb
+2010-08-22T23:03:15.6947804Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\02_03.xnb
+2010-08-22T23:03:15.8217877Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\02_04.xnb
+2010-08-22T23:03:15.9467948Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\02_06.xnb
+2010-08-22T23:02:52.3984479Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\02_intro_01.xnb
+2010-08-22T23:03:23.3712195Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\02_intro_02.xnb
+2010-08-22T23:03:23.5762312Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\02_results_01.xnb
+2010-08-22T23:03:16.4958262Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\02_results_02.xnb
+2010-08-22T23:03:16.6448348Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\02_results_03.xnb
+2010-08-22T23:03:16.7768423Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\02_results_04.xnb
+2010-08-22T23:03:16.9388516Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_intro_01.xnb
+2010-08-22T23:03:23.7882433Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_intro_02.xnb
+2010-08-22T23:03:24.0352575Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_intro_03.xnb
+2010-08-22T23:03:24.2212681Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_intro_04.xnb
+2010-08-22T23:03:24.3742769Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_intro_05.xnb
+2010-08-22T23:03:24.5292857Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_intro_06.xnb
+2010-08-22T23:03:24.7142963Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_intro_07.xnb
+2010-08-22T23:03:24.9283085Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_intro_08.xnb
+2010-08-22T23:03:29.0685454Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_intro_09.xnb
+2010-08-22T23:02:51.2623830Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_results_01.xnb
+2010-08-22T23:03:17.3518752Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_results_02.xnb
+2010-08-22T23:03:17.5128844Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_results_03.xnb
+2010-08-22T23:03:17.6548925Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_results_04.xnb
+2010-08-22T23:03:17.7999008Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_results_05.xnb
+2010-08-22T23:03:17.9679104Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_results_06.xnb
+2010-08-22T23:03:18.1319198Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_results_07.xnb
+2010-08-22T23:03:18.2739279Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_results_08.xnb
+2010-08-22T23:03:18.4339371Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_results_09.xnb
+2010-08-22T23:03:18.5659446Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_results_10.xnb
+2010-08-22T23:03:18.7469550Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\03_results_11.xnb
+2010-08-22T23:03:25.7113533Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\intro_01.xnb
+2010-08-22T23:03:22.3021583Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\intro_02.xnb
+2010-08-22T23:03:22.4701679Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\speech\intro_03.xnb
+2010-08-22T23:02:50.1643202Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\scenes\bedroom.xnb
+2010-08-22T23:02:57.4837388Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\scenes\cafeteria-left.xnb
+2010-08-22T23:02:45.3380441Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\scenes\cafeteria.xnb
+2010-08-22T23:02:46.1490905Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\scenes\house.xnb
+2010-08-22T23:03:01.6359763Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\scenes\kitchen.xnb
+2010-08-22T23:03:12.7536122Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\scenes\kitchen2.xnb
+2010-08-22T23:03:28.9175367Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\scenes\stove-new.xnb
+2010-08-22T23:03:07.0102837Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\props\buddie_blink.xnb
+2010-08-22T23:03:00.5589147Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\props\clothes_pants.xnb
+2010-08-22T23:02:58.1687780Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\props\clothes_shirts.xnb
+2010-08-22T23:02:58.8328160Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\props\clothes_shoes.xnb
+2010-08-22T23:02:57.9197637Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\props\hobbies.xnb
+2010-08-22T23:02:50.5163403Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\hobbies\books.xnb
+2010-08-22T23:02:55.2166091Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\hobbies\cooking.xnb
+2010-08-22T23:02:54.9075915Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\hobbies\music.xnb
+2010-08-22T23:02:55.3126146Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\hobbies\outdoors.xnb
+2010-08-22T23:02:55.4126203Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\hobbies\sports.xnb
+2010-08-22T23:02:55.0155976Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\hobbies\tech.xnb
+2010-08-22T23:02:55.1116031Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\arrow_choose.xnb
+2010-08-22T23:02:59.8508742Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\arrow_choose_left.xnb
+2010-08-22T23:03:05.7332106Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\arrow_choose_right.xnb
+2010-08-22T23:03:05.8402168Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\arrow_choose_up.xnb
+2010-08-22T23:03:01.9509943Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\arrow_choose_up_ani.xnb
+2010-08-22T23:02:50.0073112Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\arrow_main.xnb
+2010-08-22T23:03:06.0922312Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\a_button.xnb
+2010-08-22T23:03:06.1752359Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\choose_chapter_keyboard.xnb
+2010-08-22T23:03:16.0688018Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\choose_chapter_pad.xnb
+2010-08-22T23:03:16.2008094Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\credits.xnb
+2010-08-22T23:03:27.9864835Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\credits_overlay.xnb
+2010-08-22T23:03:25.5163422Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\down_arrow_key.xnb
+2010-08-22T23:03:07.4073064Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\enter_key.xnb
+2010-08-22T23:03:07.4993117Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\exit_game_pad.xnb
+2010-08-22T23:02:54.7315814Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\finish.xnb
+2010-08-22T23:03:07.3223015Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\finish_keyboard.xnb
+2010-08-22T23:03:16.3248165Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\food_health.xnb
+2010-08-22T23:03:01.7349820Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\food_infobox.xnb
+2010-08-22T23:02:59.7208668Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\left_arrow_key.xnb
+2010-08-22T23:03:07.5813164Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\level1_splash.xnb
+2010-08-22T23:02:41.4328207Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\level2_restart_no.xnb
+2010-08-22T23:03:17.0708591Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\level2_restart_yes.xnb
+2010-08-22T23:03:17.1918660Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\level2_splash.xnb
+2010-08-22T23:02:33.6443753Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\level3_splash.xnb
+2010-08-22T23:02:42.0158541Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\level_paused_keyboard.xnb
+2010-08-22T23:02:47.0151400Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\level_paused_pad.xnb
+2010-08-22T23:02:47.9001907Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\level_transition.xnb
+2010-08-22T23:02:42.5508847Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\main_paused_keyboard.xnb
+2010-08-22T23:02:53.5235123Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\main_paused_pad.xnb
+2010-08-22T23:02:54.6335758Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\right_arrow_key.xnb
+2010-08-22T23:03:07.6683213Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\smilies_ani.xnb
+2010-08-22T23:03:07.2122952Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\speech_bubble.xnb
+2010-08-22T23:02:32.8473297Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\speech_bubble_dad.xnb
+2010-08-22T23:03:22.7841859Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\speech_bubble_lt.xnb
+2010-08-22T23:02:33.9243913Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\taste_health_knob.xnb
+2010-08-22T23:02:51.9334213Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\thought_bubble.xnb
+2010-08-22T23:03:02.2090091Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\up_arrow_key.xnb
+2010-08-22T23:03:07.7643268Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\begin_keyboard.xnb
+2010-08-22T23:02:37.7916125Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\begin_pad.xnb
+2010-08-22T23:02:37.9206199Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level_overlay.xnb
+2010-08-22T23:02:32.5293115Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\more_keyboard.xnb
+2010-08-22T23:02:38.0496272Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\more_pad.xnb
+2010-08-22T23:02:38.1786346Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level3\intro_1_keyboard.xnb
+2010-08-22T23:02:37.1315747Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level3\intro_1_pad.xnb
+2010-08-22T23:02:37.6566048Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level3\intro_2_keyboard.xnb
+2010-08-22T23:03:13.3306452Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level3\intro_2_pad.xnb
+2010-08-22T23:03:13.9796823Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level3\intro_3_keyboard.xnb
+2010-08-22T23:03:14.3227019Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level3\intro_3_pad.xnb
+2010-08-22T23:03:14.6727220Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level3\intro_4.xnb
+2010-08-22T23:03:14.9397372Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level3\intro_5.xnb
+2010-08-22T23:03:15.3997635Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level2\intro_1_keyboard.xnb
+2010-08-22T23:02:35.6834919Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level2\intro_1_pad.xnb
+2010-08-22T23:02:38.8436727Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level2\intro_2_keyboard.xnb
+2010-08-22T23:02:36.0275116Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level2\intro_2_pad.xnb
+2010-08-22T23:02:39.1886924Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level2\intro_3_keyboard.xnb
+2010-08-22T23:02:36.6115450Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level2\intro_3_pad.xnb
+2010-08-22T23:02:39.7757260Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level2\intro_4.xnb
+2010-08-22T23:02:40.2497531Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level2\intro_5.xnb
+2010-08-22T23:02:40.8287862Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level1\intro_1_keyboard.xnb
+2010-08-22T23:02:34.4274201Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level1\intro_1_pad.xnb
+2010-08-22T23:02:30.4881947Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level1\intro_2_keyboard.xnb
+2010-08-22T23:02:34.8364435Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level1\intro_2_pad.xnb
+2010-08-22T23:02:30.9722224Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level1\intro_3_keyboard.xnb
+2010-08-22T23:02:35.1394608Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\tutorial\level1\intro_3_pad.xnb
+2010-08-22T23:02:31.3822459Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\main\bg.xnb
+2010-08-22T23:03:08.6323765Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\main\chapter1.xnb
+2010-08-22T23:03:10.3814765Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\main\chapter2.xnb
+2010-08-22T23:03:11.1675215Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\main\chapter3.xnb
+2010-08-22T23:03:11.9595668Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\main\exit_game_key.xnb
+2010-08-22T23:02:50.6503480Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\main\exit_game_pad.xnb
+2010-08-22T23:02:50.7713549Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\main\logo.xnb
+2010-08-22T23:03:09.3284163Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\main\main_buddie.xnb
+2010-08-22T23:03:09.7934429Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\main\start_game_keyboard.xnb
+2010-08-22T23:02:52.0864301Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\main\start_game_pad.xnb
+2010-08-22T23:02:52.2344386Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\intro\1.xnb
+2010-08-22T23:02:43.2379240Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\intro\2.xnb
+2010-08-22T23:02:43.8729603Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\intro\3.xnb
+2010-08-22T23:02:44.5329981Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\gui\intro\4.xnb
+2010-08-22T23:02:45.1250319Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\food\butter.xnb
+2010-08-22T23:03:02.5570290Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\food\carrots.xnb
+2010-08-22T23:03:05.6272046Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\food\margarine.xnb
+2010-08-22T23:02:59.9458796Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\food\oil_pan.xnb
+2010-08-22T23:03:02.4630236Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\food\olive_oil.xnb
+2010-08-22T23:03:00.0408851Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\food\pepper.xnb
+2010-08-22T23:03:02.3100149Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\food\potato.xnb
+2010-08-22T23:03:01.8509886Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\food\step2_food1.xnb
+2010-08-22T23:02:51.4443934Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\food\step2_food2.xnb
+2010-08-22T23:02:51.5824013Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\food\step2_food3.xnb
+2010-08-22T23:02:51.8364158Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\biker.xnb
+2010-08-22T23:02:56.1666635Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\biker_dk.xnb
+2010-08-22T23:03:02.7470398Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\biker_lt.xnb
+2010-08-22T23:03:03.1320619Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\biker_md.xnb
+2010-08-22T23:03:02.9390508Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\buddie-sm.xnb
+2010-08-22T23:02:57.7787557Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\buddie_ani.xnb
+2010-08-22T23:02:56.7296957Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\buddie_blink.xnb
+2010-08-22T23:02:59.4488512Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\buddie_orange.xnb
+2010-08-22T23:02:55.7256382Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\dad.xnb
+2010-08-22T23:02:51.1343756Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\ditzy.xnb
+2010-08-22T23:02:55.9896533Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\ditzy_dk.xnb
+2010-08-22T23:03:03.3260730Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\ditzy_lt.xnb
+2010-08-22T23:03:03.5220842Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\ditzy_md.xnb
+2010-08-22T23:03:03.7160953Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\goth_dk.xnb
+2010-08-22T23:03:03.9091063Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\goth_lt.xnb
+2010-08-22T23:03:04.1091178Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\goth_md.xnb
+2010-08-22T23:03:04.3051290Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\jock_dk.xnb
+2010-08-22T23:03:04.4981400Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\jock_lt.xnb
+2010-08-22T23:03:04.7031517Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\jock_md.xnb
+2010-08-22T23:03:04.8951627Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\nerd_dk.xnb
+2010-08-22T23:03:05.0981743Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\nerd_lt.xnb
+2010-08-22T23:03:05.3121866Z
+C:\Users\Johnny\Documents\Buddie's Busy Day\Buddie\Project\Buddie 3.0\Game\bin\Xbox 360\Debug\data\images\chars\nerd_md.xnb
+2010-08-22T23:03:05.5151982Z

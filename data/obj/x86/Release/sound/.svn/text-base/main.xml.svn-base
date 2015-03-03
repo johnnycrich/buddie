@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="Wave Bank">Wave Bank
+{
+    Name = Wave Bank;
+    Xbox File = Xbox\Wave Bank.xwb;
+    Windows File = Win\Wave Bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Bank Last Revised Low = 1953336992;
+    Bank Last Revised High = 29967473;
+
+    Wave
+    {
+        Name = level1;
+        File = ..\..\..\..\..\..\..\SFX\Music\level1.wav;
+        Build Settings Last Modified Low = 437130768;
+        Build Settings Last Modified High = 29967467;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 7214976;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2671748064;
+            Last Modified High = 29967466;
+        }
+    }
+
+    Wave
+    {
+        Name = level2;
+        File = ..\..\..\..\..\..\..\SFX\Music\level2.wav;
+        Build Settings Last Modified Low = 437140768;
+        Build Settings Last Modified High = 29967467;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 21417984;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3756508064;
+            Last Modified High = 29967466;
+        }
+    }
+
+    Wave
+    {
+        Name = level3;
+        File = ..\..\..\..\..\..\..\SFX\Music\level3.wav;
+        Build Settings Last Modified Low = 437150768;
+        Build Settings Last Modified High = 29967467;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 15312384;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 134350768;
+            Last Modified High = 29967467;
+        }
+    }
+
+    Wave
+    {
+        Name = arrow_move;
+        File = ..\..\..\..\..\..\..\SFX\GUI\arrow_move.wav;
+        Build Settings Last Modified Low = 156076992;
+        Build Settings Last Modified High = 29967473;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 29952;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 12956992;
+            Last Modified High = 29967473;
+        }
+    }
+
+    Wave
+    {
+        Name = bubble_pop;
+        File = ..\..\..\..\..\..\..\SFX\GUI\bubble_pop.wav;
+        Build Settings Last Modified Low = 156086992;
+        Build Settings Last Modified High = 29967473;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 25540;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3754444288;
+            Last Modified High = 29967472;
+        }
+    }
+
+    Wave
+    {
+        Name = select;
+        File = ..\..\..\..\..\..\..\SFX\GUI\select.wav;
+        Build Settings Last Modified Low = 156086992;
+        Build Settings Last Modified High = 29967473;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 22464;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4011574288;
+            Last Modified High = 29967472;
+        }
+    }
+
+    Wave
+    {
+        Name = main;
+        File = ..\..\..\..\..\..\..\SFX\Music\main.wav;
+        Build Settings Last Modified Low = 1865366992;
+        Build Settings Last Modified High = 29967473;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 5644800;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1812896992;
+            Last Modified High = 29967473;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

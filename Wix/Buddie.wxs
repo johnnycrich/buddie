@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="APPLICATIONFOLDER">
+            <Component Id="Game.application_1" Guid="{FBACDBC1-6BDE-4427-8D6D-F00C501FAA51}">
+                <File Id="Game.application_1" Name="Game.application" KeyPath="yes" Source="bin\x86\release\Game.application" />
+            </Component>
+            <Component Id="Game.exe" Guid="{2FF357A5-1066-4A92-9B2D-EB1671A40C85}">
+                <File Id="Game.exe" Name="Game.exe" KeyPath="yes" Source="bin\x86\release\Game.exe" />
+            </Component>
+            <Component Id="Game.exe.manifest_1" Guid="{C6C31ECD-A54F-4851-844A-4293BEA1DA92}">
+                <File Id="Game.exe.manifest_1" Name="Game.exe.manifest" KeyPath="yes" Source="bin\x86\release\Game.exe.manifest" />
+            </Component>
+            <Component Id="GarageGames.TorqueX.Framework.dll" Guid="{5D554AC2-0ED2-444D-B90C-C34C8DE658D4}">
+                <File Id="GarageGames.TorqueX.Framework.dll" Name="GarageGames.TorqueX.Framework.dll" KeyPath="yes" Source="bin\x86\release\GarageGames.TorqueX.Framework.dll" />
+            </Component>
+            <Component Id="torqueSettings.xml" Guid="{47186DC3-1E08-4C80-9725-5B985440E629}">
+                <File Id="torqueSettings.xml" Name="torqueSettings.xml" KeyPath="yes" Source="bin\x86\release\torqueSettings.xml" />
+            </Component>
+            <Directory Id="data" Name="data">
+                <Component Id="Arial.xnb" Guid="{7220E96B-5E8B-45CE-B649-44C056762552}">
+                    <File Id="Arial.xnb" Name="Arial.xnb" KeyPath="yes" Source="bin\x86\release\data\Arial.xnb" />
+                </Component>
+                <Directory Id="images" Name="images">
+                    <Component Id="bubble.xnb" Guid="{6852E3C2-1CFC-4359-B91D-4899F29AAEF1}">
+                        <File Id="bubble.xnb" Name="bubble.xnb" KeyPath="yes" Source="bin\x86\release\data\images\bubble.xnb" />
+                    </Component>
+                    <Component Id="happy_hud.xnb" Guid="{7A3F9660-7B44-4857-B031-E1DAAB08A770}">
+                        <File Id="happy_hud.xnb" Name="happy_hud.xnb" KeyPath="yes" Source="bin\x86\release\data\images\happy_hud.xnb" />
+                    </Component>
+                    <Component Id="speech_bubble.xnb" Guid="{2A642790-45C5-45CE-9826-025AA4C4A8F0}">
+                        <File Id="speech_bubble.xnb" Name="speech_bubble.xnb" KeyPath="yes" Source="bin\x86\release\data\images\speech_bubble.xnb" />
+                    </Component>
+                    <Component Id="speech_bubble1.xnb" Guid="{9B406C67-575F-4016-BD6C-A0F8B5B42553}">
+                        <File Id="speech_bubble1.xnb" Name="speech_bubble1.xnb" KeyPath="yes" Source="bin\x86\release\data\images\speech_bubble1.xnb" />
+                    </Component>
+                    <Component Id="speech_bubble2.xnb" Guid="{12220A53-2135-4C28-99D9-9BC9F87E63B5}">
+                        <File Id="speech_bubble2.xnb" Name="speech_bubble2.xnb" KeyPath="yes" Source="bin\x86\release\data\images\speech_bubble2.xnb" />
+                    </Component>
+                    <Component Id="speech_bubble3.xnb" Guid="{A8EA50AC-8E49-490B-958E-959A0A395ABE}">
+                        <File Id="speech_bubble3.xnb" Name="speech_bubble3.xnb" KeyPath="yes" Source="bin\x86\release\data\images\speech_bubble3.xnb" />
+                    </Component>
+                    <Component Id="speech_bubble4.xnb" Guid="{E3A819D5-64A0-4FCA-B5E8-F4EDAB4CBF49}">
+                        <File Id="speech_bubble4.xnb" Name="speech_bubble4.xnb" KeyPath="yes" Source="bin\x86\release\data\images\speech_bubble4.xnb" />
+                    </Component>
+                    <Directory Id="chars" Name="chars">
+                        <Component Id="biker.xnb" Guid="{D43FA577-D385-4C45-9A0B-D3AA6969965F}">
+                            <File Id="biker.xnb" Name="biker.xnb" KeyPath="yes" Source="bin\x86\release\data\images\chars\biker.xnb" />
+                        </Component>
+                        <Component Id="buddie_sm.xnb" Guid="{6AEF299C-BBC1-4212-A5A6-F7D7C8C5B016}">
+                            <File Id="buddie_sm.xnb" Name="buddie-sm.xnb" KeyPath="yes" Source="bin\x86\release\data\images\chars\buddie-sm.xnb" />
+                        </Component>
+                        <Component Id="buddie_ani.xnb" Guid="{D72BFCED-45D3-4C35-A97C-4D7A93F0BD59}">
+                            <File Id="buddie_ani.xnb" Name="buddie_ani.xnb" KeyPath="yes" Source="bin\x86\release\data\images\chars\buddie_ani.xnb" />
+                        </Component>
+                        <Component Id="buddie_blink.xnb_1" Guid="{9F932FED-B93A-4B3D-9514-FD702013712B}">
+                            <File Id="buddie_blink.xnb_1" Name="buddie_blink.xnb" KeyPath="yes" Source="bin\x86\release\data\images\chars\buddie_blink.xnb" />
+                        </Component>
+                        <Component Id="buddie_orange.xnb" Guid="{CB3BD3C7-A8C3-4102-98F6-D46495E6DB11}">
+                            <File Id="buddie_orange.xnb" Name="buddie_orange.xnb" KeyPath="yes" Source="bin\x86\release\data\images\chars\buddie_orange.xnb" />
+                        </Component>
+                        <Component Id="classmates.xnb" Guid="{F0295945-4E93-4548-BD5C-31065F7E2FEE}">
+                            <File Id="classmates.xnb" Name="classmates.xnb" KeyPath="yes" Source="bin\x86\release\data\images\chars\classmates.xnb" />
+                        </Component>
+                        <Component Id="ditzy.xnb" Guid="{E865A1A7-6DB1-4066-B6F5-D6520699021E}">
+                            <File Id="ditzy.xnb" Name="ditzy.xnb" KeyPath="yes" Source="bin\x86\release\data\images\chars\ditzy.xnb" />
+                        </Component>
+                        <Component Id="goth.xnb" Guid="{A23E66C8-EE82-4BEF-A3A8-9B712D7D7B08}">
+                            <File Id="goth.xnb" Name="goth.xnb" KeyPath="yes" Source="bin\x86\release\data\images\chars\goth.xnb" />
+                        </Component>
+                        <Component Id="jock.xnb" Guid="{0D3E4933-9D47-437A-80AE-DA6EDBE082B6}">
+                            <File Id="jock.xnb" Name="jock.xnb" KeyPath="yes" Source="bin\x86\release\data\images\chars\jock.xnb" />
+                        </Component>
+                        <Component Id="nerd.xnb" Guid="{71F5F374-41EA-42D9-A1D0-98DFD3658C5D}">
+                            <File Id="nerd.xnb" Name="nerd.xnb" KeyPath="yes" Source="bin\x86\release\data\images\chars\nerd.xnb" />
+                        </Component>
+                    </Directory>
+                    <Directory Id="food" Name="food">
+                        <Component Id="baby_carrot.xnb" Guid="{8B25771A-A445-4812-8819-28DB1914C9CF}">
+                            <File Id="baby_carrot.xnb" Name="baby_carrot.xnb" KeyPath="yes" Source="bin\x86\release\data\images\food\baby_carrot.xnb" />
+                        </Component>
+                        <Component Id="broccoli.xnb" Guid="{7EE7D187-13E2-4175-80E8-88084A5DB379}">
+                            <File Id="broccoli.xnb" Name="broccoli.xnb" KeyPath="yes" Source="bin\x86\release\data\images\food\broccoli.xnb" />
+                        </Component>
+                        <Component Id="butter_new.xnb" Guid="{5D9F52AF-5EC2-463A-B4B9-8FA88DEB8C64}">
+                            <File Id="butter_new.xnb" Name="butter-new.xnb" KeyPath="yes" Source="bin\x86\release\data\images\food\butter-new.xnb" />
+                        </Component>
+                        <Component Id="chicken.xnb" Guid="{55BD7063-D9F3-48A0-9C56-6D3E93B8507D}">
+                            <File Id="chicken.xnb" Name="chicken.xnb" KeyPath="yes" Source="bin\x86\release\data\images\food\chicken.xnb" />
+                        </Component>
+                        <Component Id="margarine.xnb" Guid="{124901AB-D492-45F9-81E6-58D9FB520583}">
+                            <File Id="margarine.xnb" Name="margarine.xnb" KeyPath="yes" Source="bin\x86\release\data\images\food\margarine.xnb" />
+                        </Component>
+                        <Component Id="oil_pan.xnb" Guid="{834A57E3-C180-49FA-87A7-4A26F824166B}">
+                            <File Id="oil_pan.xnb" Name="oil_pan.xnb" KeyPath="yes" Source="bin\x86\release\data\images\food\oil_pan.xnb" />
+                        </Component>
+                        <Component Id="olive_oil.xnb" Guid="{34150098-C462-4D46-A6C4-3A3619F5D485}">
+                            <File Id="olive_oil.xnb" Name="olive_oil.xnb" KeyPath="yes" Source="bin\x86\release\data\images\food\olive_oil.xnb" />
+                        </Component>
+                        <Component Id="pepper.xnb" Guid="{81C29A83-BE31-44EB-82D9-E3034EFB5018}">
+                            <File Id="pepper.xnb" Name="pepper.xnb" KeyPath="yes" Source="bin\x86\release\data\images\food\pepper.xnb" />
+                        </Component>
+                        <Component Id="pork.xnb" Guid="{29421060-213A-4DB6-B20D-9805FCEAB6B3}">
+                            <File Id="pork.xnb" Name="pork.xnb" KeyPath="yes" Source="bin\x86\release\data\images\food\pork.xnb" />
+                        </Component>
+                        <Component Id="potato.xnb" Guid="{CC68DEF7-2982-49D6-BC35-20AE7EAD37EB}">
+                            <File Id="potato.xnb" Name="potato.xnb" KeyPath="yes" Source="bin\x86\release\data\images\food\potato.xnb" />
+                        </Component>
+                        <Component Id="scallops.xnb" Guid="{41AA7567-C640-4E87-A01A-E9B0B31B9488}">
+                            <File Id="scallops.xnb" Name="scallops.xnb" KeyPath="yes" Source="bin\x86\release\data\images\food\scallops.xnb" />
+                        </Component>
+                    </Directory>
+                    <Directory Id="gui" Name="gui">
+                        <Component Id="arrow_choose.xnb" Guid="{962F35EC-9504-4BB5-9CAD-27B2D053171C}">
+                            <File Id="arrow_choose.xnb" Name="arrow_choose.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose.xnb" />
+                        </Component>
+                        <Component Id="arrow_choose_up.xnb" Guid="{66FA30E4-4B3A-4956-9A7A-9D56F20DC7D8}">
+                            <File Id="arrow_choose_up.xnb" Name="arrow_choose_up.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up.xnb" />
+                        </Component>
+                        <Component Id="arrow_choose_up_ani.xnb" Guid="{B71716F1-9B21-42F1-A6E0-63C7D735675E}">
+                            <File Id="arrow_choose_up_ani.xnb" Name="arrow_choose_up_ani.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up_ani.xnb" />
+                        </Component>
+                        <Component Id="food_health.xnb" Guid="{8C7F8053-A5D0-4927-B65F-E237D26633DD}">
+                            <File Id="food_health.xnb" Name="food_health.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\food_health.xnb" />
+                        </Component>
+                        <Component Id="food_infobox.xnb" Guid="{91A83708-5A7F-4312-9094-AA5748874545}">
+                            <File Id="food_infobox.xnb" Name="food_infobox.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\food_infobox.xnb" />
+                        </Component>
+                        <Component Id="food_rate.xnb" Guid="{B41C32E4-7755-4189-94D6-2AEEE18087F5}">
+                            <File Id="food_rate.xnb" Name="food_rate.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\food_rate.xnb" />
+                        </Component>
+                        <Component Id="level2_intro.xnb" Guid="{E0376C9A-7312-4591-872A-5362CCDBC492}">
+                            <File Id="level2_intro.xnb" Name="level2_intro.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\level2_intro.xnb" />
+                        </Component>
+                        <Component Id="level_exit.xnb" Guid="{96A48B9A-BCB8-4910-87B9-46B2EE4EECED}">
+                            <File Id="level_exit.xnb" Name="level_exit.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\level_exit.xnb" />
+                        </Component>
+                        <Component Id="level_lev1.xnb" Guid="{EA745D17-16A6-4137-B15C-51B7B0E7DAC9}">
+                            <File Id="level_lev1.xnb" Name="level_lev1.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\level_lev1.xnb" />
+                        </Component>
+                        <Component Id="level_lev2.xnb" Guid="{99504558-CF61-4799-A5C9-1C5ABFAD9101}">
+                            <File Id="level_lev2.xnb" Name="level_lev2.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\level_lev2.xnb" />
+                        </Component>
+                        <Component Id="level_lev3.xnb" Guid="{19BAA579-211F-406A-A7DA-3F452D913740}">
+                            <File Id="level_lev3.xnb" Name="level_lev3.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\level_lev3.xnb" />
+                        </Component>
+                        <Component Id="level_levOvr.xnb" Guid="{07669A57-CC95-4FC0-8FB2-49E5F4654602}">
+                            <File Id="level_levOvr.xnb" Name="level_levOvr.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\level_levOvr.xnb" />
+                        </Component>
+                        <Component Id="main_bg.xnb" Guid="{D00D3520-689E-4D0C-A4F6-051E42A57110}">
+                            <File Id="main_bg.xnb" Name="main_bg.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\main_bg.xnb" />
+                        </Component>
+                        <Component Id="signification.xnb" Guid="{40BACE3E-A0BB-4E02-919D-3F1973507F7C}">
+                            <File Id="signification.xnb" Name="signification.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\signification.xnb" />
+                        </Component>
+                        <Component Id="taste_knob.xnb" Guid="{DF81C750-0763-46CA-8536-2BC07EDE2917}">
+                            <File Id="taste_knob.xnb" Name="taste_knob.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\taste_knob.xnb" />
+                        </Component>
+                        <Component Id="taste_knob_indicator.xnb" Guid="{BAC94595-2505-44C2-9CE6-F0E23CB66A78}">
+                            <File Id="taste_knob_indicator.xnb" Name="taste_knob_indicator.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\taste_knob_indicator.xnb" />
+                        </Component>
+                        <Component Id="thought_bubble.xnb" Guid="{F0DEA9C2-B579-49C8-A409-A4419F37CBD8}">
+                            <File Id="thought_bubble.xnb" Name="thought_bubble.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\thought_bubble.xnb" />
+                        </Component>
+                        <Directory Id="arrow_choose_up" Name="arrow_choose_up">
+                            <Component Id="arrow_choose_up0001.xnb" Guid="{7356816C-268F-410A-98D7-7B026AE5DDB2}">
+                                <File Id="arrow_choose_up0001.xnb" Name="arrow_choose_up0001.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0001.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0002.xnb" Guid="{AE267B85-D7FB-4170-BDF3-E791A7D59C36}">
+                                <File Id="arrow_choose_up0002.xnb" Name="arrow_choose_up0002.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0002.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0003.xnb" Guid="{5D79CFAF-A780-451C-989C-D888864075CD}">
+                                <File Id="arrow_choose_up0003.xnb" Name="arrow_choose_up0003.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0003.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0004.xnb" Guid="{E2F342AF-CBD5-42DF-9558-6BB88839FB1F}">
+                                <File Id="arrow_choose_up0004.xnb" Name="arrow_choose_up0004.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0004.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0005.xnb" Guid="{BF206E9F-7043-4C0D-9E38-0681694EF291}">
+                                <File Id="arrow_choose_up0005.xnb" Name="arrow_choose_up0005.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0005.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0006.xnb" Guid="{504CAAE9-3257-40F9-BE19-C2EB2B6B7652}">
+                                <File Id="arrow_choose_up0006.xnb" Name="arrow_choose_up0006.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0006.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0007.xnb" Guid="{CAB7DFC0-F98C-48E5-A794-552A01A677E4}">
+                                <File Id="arrow_choose_up0007.xnb" Name="arrow_choose_up0007.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0007.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0008.xnb" Guid="{149E5790-8202-478E-8229-62FC8D0B5EE4}">
+                                <File Id="arrow_choose_up0008.xnb" Name="arrow_choose_up0008.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0008.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0009.xnb" Guid="{3F96D98D-0DDE-4E7A-9467-5E9BB7B35DF1}">
+                                <File Id="arrow_choose_up0009.xnb" Name="arrow_choose_up0009.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0009.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0010.xnb" Guid="{39C01752-2464-4942-97FA-F52BAD808C96}">
+                                <File Id="arrow_choose_up0010.xnb" Name="arrow_choose_up0010.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0010.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0011.xnb" Guid="{D84F4911-13C9-41E2-A099-A39BABC7D726}">
+                                <File Id="arrow_choose_up0011.xnb" Name="arrow_choose_up0011.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0011.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0012.xnb" Guid="{8C216C9C-66D2-4BB3-A203-BB44AF1E81AD}">
+                                <File Id="arrow_choose_up0012.xnb" Name="arrow_choose_up0012.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0012.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0013.xnb" Guid="{DE234410-74C3-4151-8B1A-C6D21AE81E1C}">
+                                <File Id="arrow_choose_up0013.xnb" Name="arrow_choose_up0013.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0013.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0014.xnb" Guid="{4EB9AE99-CD80-42C1-B59C-DA67704E8F91}">
+                                <File Id="arrow_choose_up0014.xnb" Name="arrow_choose_up0014.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0014.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0015.xnb" Guid="{98C39E2E-AEC6-49D5-93DF-F27CBA666FF6}">
+                                <File Id="arrow_choose_up0015.xnb" Name="arrow_choose_up0015.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0015.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0016.xnb" Guid="{5CD6A3BD-7470-4361-AB3D-D41482B73C3A}">
+                                <File Id="arrow_choose_up0016.xnb" Name="arrow_choose_up0016.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0016.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0017.xnb" Guid="{0DF90133-11DA-4F7E-9AAF-664A6C2A05EA}">
+                                <File Id="arrow_choose_up0017.xnb" Name="arrow_choose_up0017.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0017.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0018.xnb" Guid="{ADAF3879-B32C-44ED-BDB1-7ADD321614F4}">
+                                <File Id="arrow_choose_up0018.xnb" Name="arrow_choose_up0018.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0018.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0019.xnb" Guid="{DD86A8AD-A7B6-4AB4-8677-D6D8A61AA2E6}">
+                                <File Id="arrow_choose_up0019.xnb" Name="arrow_choose_up0019.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0019.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0020.xnb" Guid="{3BE0A30E-D796-4069-9337-E504A2E7EC30}">
+                                <File Id="arrow_choose_up0020.xnb" Name="arrow_choose_up0020.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0020.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0021.xnb" Guid="{1A15D665-A27C-47C2-8DCE-933385D2FF9E}">
+                                <File Id="arrow_choose_up0021.xnb" Name="arrow_choose_up0021.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0021.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0022.xnb" Guid="{C078CCBE-BAC0-4E0D-85C6-9EB4632A96DF}">
+                                <File Id="arrow_choose_up0022.xnb" Name="arrow_choose_up0022.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0022.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0023.xnb" Guid="{06123D4C-BB4A-4E36-A733-04E744ED3466}">
+                                <File Id="arrow_choose_up0023.xnb" Name="arrow_choose_up0023.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0023.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0024.xnb" Guid="{2A97112B-73F0-447C-B7A4-F447CAF38DCF}">
+                                <File Id="arrow_choose_up0024.xnb" Name="arrow_choose_up0024.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0024.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0025.xnb" Guid="{6A7C4DF2-10EA-45CF-9892-81B7AFFC467E}">
+                                <File Id="arrow_choose_up0025.xnb" Name="arrow_choose_up0025.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0025.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0026.xnb" Guid="{0ED2D0EB-2625-4247-8D2C-75048BC86C63}">
+                                <File Id="arrow_choose_up0026.xnb" Name="arrow_choose_up0026.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0026.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0027.xnb" Guid="{BEA51A82-0720-4423-B309-2887DB6410FD}">
+                                <File Id="arrow_choose_up0027.xnb" Name="arrow_choose_up0027.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0027.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0028.xnb" Guid="{CC65E858-4F45-4BE9-8F75-8FF62E00311E}">
+                                <File Id="arrow_choose_up0028.xnb" Name="arrow_choose_up0028.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0028.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0029.xnb" Guid="{01D1649A-C3F5-4E7A-8FE2-AF152CCD0397}">
+                                <File Id="arrow_choose_up0029.xnb" Name="arrow_choose_up0029.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0029.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0030.xnb" Guid="{EA61B00A-2D40-4527-91B1-0ED970E8BE3F}">
+                                <File Id="arrow_choose_up0030.xnb" Name="arrow_choose_up0030.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0030.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0031.xnb" Guid="{8A7979DE-5397-4122-940A-8D6FE6EE33EC}">
+                                <File Id="arrow_choose_up0031.xnb" Name="arrow_choose_up0031.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0031.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0032.xnb" Guid="{D91E794A-EEDE-40E0-B4EC-B4AD4A3C69FB}">
+                                <File Id="arrow_choose_up0032.xnb" Name="arrow_choose_up0032.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0032.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0033.xnb" Guid="{78B0D835-5D3D-47BA-95FC-58CFC173B1DA}">
+                                <File Id="arrow_choose_up0033.xnb" Name="arrow_choose_up0033.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0033.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0034.xnb" Guid="{EB00F632-ADA8-4C9E-818A-F5E1930CC8F7}">
+                                <File Id="arrow_choose_up0034.xnb" Name="arrow_choose_up0034.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0034.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0035.xnb" Guid="{A4C5151E-A71F-460F-8CA4-E7AD4D6BE69B}">
+                                <File Id="arrow_choose_up0035.xnb" Name="arrow_choose_up0035.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0035.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0036.xnb" Guid="{885ED8D0-FDA6-4AA6-8427-6E8E0323CEA6}">
+                                <File Id="arrow_choose_up0036.xnb" Name="arrow_choose_up0036.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0036.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0037.xnb" Guid="{B1329385-7E89-42D7-B203-29D8AF516EEA}">
+                                <File Id="arrow_choose_up0037.xnb" Name="arrow_choose_up0037.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0037.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0038.xnb" Guid="{AF66F1DE-0D85-43D9-924B-87703F60BE84}">
+                                <File Id="arrow_choose_up0038.xnb" Name="arrow_choose_up0038.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0038.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0039.xnb" Guid="{73FF5A1D-7F6D-4F92-A288-02F2DEF86E78}">
+                                <File Id="arrow_choose_up0039.xnb" Name="arrow_choose_up0039.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0039.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0040.xnb" Guid="{EEABF36E-3285-479A-91C5-11C87EAA6154}">
+                                <File Id="arrow_choose_up0040.xnb" Name="arrow_choose_up0040.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0040.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0041.xnb" Guid="{A2C59770-0999-4486-B762-31138D145FD0}">
+                                <File Id="arrow_choose_up0041.xnb" Name="arrow_choose_up0041.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0041.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0042.xnb" Guid="{3E0B9282-7820-440C-B0A9-C5E99ECE51EC}">
+                                <File Id="arrow_choose_up0042.xnb" Name="arrow_choose_up0042.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0042.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0043.xnb" Guid="{6404DB1D-FF21-43D0-A7CF-07347A6778E3}">
+                                <File Id="arrow_choose_up0043.xnb" Name="arrow_choose_up0043.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0043.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0044.xnb" Guid="{E1D53832-994D-46BA-AB31-A3F5C1D329D3}">
+                                <File Id="arrow_choose_up0044.xnb" Name="arrow_choose_up0044.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0044.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0045.xnb" Guid="{F90A1DBB-F81F-47E5-ADDE-CFCE587E6693}">
+                                <File Id="arrow_choose_up0045.xnb" Name="arrow_choose_up0045.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0045.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0046.xnb" Guid="{D71D908F-1B6C-45D0-9FDE-52D42B0F4BBC}">
+                                <File Id="arrow_choose_up0046.xnb" Name="arrow_choose_up0046.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0046.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0047.xnb" Guid="{F21C237E-4B99-468A-A8F3-1BA7E662A31F}">
+                                <File Id="arrow_choose_up0047.xnb" Name="arrow_choose_up0047.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0047.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0048.xnb" Guid="{CD2186B6-0DE5-421F-B08C-BC7D64A3877F}">
+                                <File Id="arrow_choose_up0048.xnb" Name="arrow_choose_up0048.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0048.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0049.xnb" Guid="{E3A65390-2B21-4C54-9A1B-9167BC3E2C73}">
+                                <File Id="arrow_choose_up0049.xnb" Name="arrow_choose_up0049.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0049.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0050.xnb" Guid="{93A2D965-4FDA-46A3-A264-D2DEF9F599C5}">
+                                <File Id="arrow_choose_up0050.xnb" Name="arrow_choose_up0050.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0050.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0051.xnb" Guid="{B519908F-F238-4746-877F-4B808A4FE97D}">
+                                <File Id="arrow_choose_up0051.xnb" Name="arrow_choose_up0051.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0051.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0052.xnb" Guid="{CA436DA1-EB83-474A-9967-1C0E5552041D}">
+                                <File Id="arrow_choose_up0052.xnb" Name="arrow_choose_up0052.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0052.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0053.xnb" Guid="{95409846-3488-427E-996E-2A29F8F4B43C}">
+                                <File Id="arrow_choose_up0053.xnb" Name="arrow_choose_up0053.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0053.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0054.xnb" Guid="{BAC27C9B-55C2-4E66-8A07-A403D2521657}">
+                                <File Id="arrow_choose_up0054.xnb" Name="arrow_choose_up0054.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0054.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0055.xnb" Guid="{00F955E4-0ECE-485C-B5E0-A5E1981DDB59}">
+                                <File Id="arrow_choose_up0055.xnb" Name="arrow_choose_up0055.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0055.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0056.xnb" Guid="{D031118C-4D1C-4FDA-8A6E-3361A1272792}">
+                                <File Id="arrow_choose_up0056.xnb" Name="arrow_choose_up0056.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0056.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0057.xnb" Guid="{C36611CB-4751-432A-A101-84ABACE18651}">
+                                <File Id="arrow_choose_up0057.xnb" Name="arrow_choose_up0057.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0057.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0058.xnb" Guid="{CB4ACD51-EB0B-4626-BAF5-AA9C71A4B01B}">
+                                <File Id="arrow_choose_up0058.xnb" Name="arrow_choose_up0058.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0058.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0059.xnb" Guid="{58EDA11D-C529-4010-BC62-BD24B1C3D1CC}">
+                                <File Id="arrow_choose_up0059.xnb" Name="arrow_choose_up0059.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0059.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0060.xnb" Guid="{EAA28B2A-2B87-41F7-9CCD-1CC218F3B95F}">
+                                <File Id="arrow_choose_up0060.xnb" Name="arrow_choose_up0060.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0060.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0061.xnb" Guid="{E7B071E7-2359-4106-A53F-8DE7BCE84CB2}">
+                                <File Id="arrow_choose_up0061.xnb" Name="arrow_choose_up0061.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0061.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0062.xnb" Guid="{CEDCC379-3055-4CDE-B401-719BBAF4E6CA}">
+                                <File Id="arrow_choose_up0062.xnb" Name="arrow_choose_up0062.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0062.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0063.xnb" Guid="{A0577038-BCC9-4468-86A7-A9A684F5B1CA}">
+                                <File Id="arrow_choose_up0063.xnb" Name="arrow_choose_up0063.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0063.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0064.xnb" Guid="{9CFA8C02-4239-4E3A-929D-CAABDDAEB259}">
+                                <File Id="arrow_choose_up0064.xnb" Name="arrow_choose_up0064.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0064.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0065.xnb" Guid="{AE19E8C1-4B64-4DC7-A5E0-06FD63F4589C}">
+                                <File Id="arrow_choose_up0065.xnb" Name="arrow_choose_up0065.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0065.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0066.xnb" Guid="{2AE23B3E-1237-4301-AB28-0B0747211573}">
+                                <File Id="arrow_choose_up0066.xnb" Name="arrow_choose_up0066.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0066.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0067.xnb" Guid="{E91735BA-4788-4A85-90FA-574F498777A0}">
+                                <File Id="arrow_choose_up0067.xnb" Name="arrow_choose_up0067.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0067.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0068.xnb" Guid="{3C6E1E0C-68E2-411C-AEF1-38967F6D642F}">
+                                <File Id="arrow_choose_up0068.xnb" Name="arrow_choose_up0068.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0068.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0069.xnb" Guid="{97BCE67A-505C-44E6-9A65-1C5129BE7399}">
+                                <File Id="arrow_choose_up0069.xnb" Name="arrow_choose_up0069.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0069.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0070.xnb" Guid="{4D05A39B-62CD-41CD-9DF7-9F43953ED19E}">
+                                <File Id="arrow_choose_up0070.xnb" Name="arrow_choose_up0070.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0070.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0071.xnb" Guid="{B48CD582-E026-43E7-A7DC-6F8DCD639D2C}">
+                                <File Id="arrow_choose_up0071.xnb" Name="arrow_choose_up0071.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0071.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0072.xnb" Guid="{2DA41FD8-28C2-4B42-B2AE-6E64320A93F0}">
+                                <File Id="arrow_choose_up0072.xnb" Name="arrow_choose_up0072.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0072.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0073.xnb" Guid="{88180387-C6FC-4680-97E8-F3239B96F47B}">
+                                <File Id="arrow_choose_up0073.xnb" Name="arrow_choose_up0073.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0073.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0074.xnb" Guid="{62EE3877-0773-4015-A9BC-B4FACE11C5EF}">
+                                <File Id="arrow_choose_up0074.xnb" Name="arrow_choose_up0074.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0074.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0075.xnb" Guid="{13256A03-9F13-44D0-9CB3-22D38A681DD5}">
+                                <File Id="arrow_choose_up0075.xnb" Name="arrow_choose_up0075.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0075.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0076.xnb" Guid="{74EE5377-8122-4551-A8FD-5E54D5B4D3F5}">
+                                <File Id="arrow_choose_up0076.xnb" Name="arrow_choose_up0076.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0076.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0077.xnb" Guid="{23BC10C1-4930-427A-BBB4-CFAEF856B11F}">
+                                <File Id="arrow_choose_up0077.xnb" Name="arrow_choose_up0077.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0077.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0078.xnb" Guid="{B5A2739B-3E2D-491A-B216-A022564F07F3}">
+                                <File Id="arrow_choose_up0078.xnb" Name="arrow_choose_up0078.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0078.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0079.xnb" Guid="{51DCA133-5C80-4B4A-9882-1CC3C408B139}">
+                                <File Id="arrow_choose_up0079.xnb" Name="arrow_choose_up0079.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0079.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0080.xnb" Guid="{779D468D-C65A-47DF-A638-783C407D9B8D}">
+                                <File Id="arrow_choose_up0080.xnb" Name="arrow_choose_up0080.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0080.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0081.xnb" Guid="{FB3992BD-FEA4-467A-87D8-F19F7CEAA13F}">
+                                <File Id="arrow_choose_up0081.xnb" Name="arrow_choose_up0081.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0081.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0082.xnb" Guid="{730530CF-9ACA-4E6A-9819-DEC44A198E68}">
+                                <File Id="arrow_choose_up0082.xnb" Name="arrow_choose_up0082.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0082.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0083.xnb" Guid="{BE9D3814-0DE2-4825-948B-EBA95AB7DFAF}">
+                                <File Id="arrow_choose_up0083.xnb" Name="arrow_choose_up0083.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0083.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0084.xnb" Guid="{8828A760-CE9B-4992-9F1E-F8A527499844}">
+                                <File Id="arrow_choose_up0084.xnb" Name="arrow_choose_up0084.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0084.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0085.xnb" Guid="{D3F4A566-D923-4084-8BFC-9B7855C12F81}">
+                                <File Id="arrow_choose_up0085.xnb" Name="arrow_choose_up0085.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0085.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0086.xnb" Guid="{A2F3A96F-5404-46AB-A612-C0848B3C280D}">
+                                <File Id="arrow_choose_up0086.xnb" Name="arrow_choose_up0086.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0086.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0087.xnb" Guid="{63BB0D61-7B8C-40BC-BE33-E091B9B45736}">
+                                <File Id="arrow_choose_up0087.xnb" Name="arrow_choose_up0087.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0087.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0088.xnb" Guid="{57194805-3AB2-4322-863E-6DD7837DED17}">
+                                <File Id="arrow_choose_up0088.xnb" Name="arrow_choose_up0088.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0088.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0089.xnb" Guid="{25448F30-B5D6-4808-820D-358F8667FECB}">
+                                <File Id="arrow_choose_up0089.xnb" Name="arrow_choose_up0089.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0089.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0090.xnb" Guid="{1CE5154E-E751-40EB-A6DE-A7C6E29986AE}">
+                                <File Id="arrow_choose_up0090.xnb" Name="arrow_choose_up0090.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0090.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0091.xnb" Guid="{308A1419-2FBB-4276-9D9B-B1099CDFFA79}">
+                                <File Id="arrow_choose_up0091.xnb" Name="arrow_choose_up0091.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0091.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0092.xnb" Guid="{20C65F6C-DB73-4C64-8129-D9339F6D2553}">
+                                <File Id="arrow_choose_up0092.xnb" Name="arrow_choose_up0092.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0092.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0093.xnb" Guid="{17C24BC7-4391-492B-82C4-039AC05E8A41}">
+                                <File Id="arrow_choose_up0093.xnb" Name="arrow_choose_up0093.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0093.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0094.xnb" Guid="{4B86458E-3734-4D58-9500-F919A9EFAFE6}">
+                                <File Id="arrow_choose_up0094.xnb" Name="arrow_choose_up0094.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0094.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0095.xnb" Guid="{F371DC0F-5EDD-4640-9EF8-4915CF4B10C3}">
+                                <File Id="arrow_choose_up0095.xnb" Name="arrow_choose_up0095.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0095.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0096.xnb" Guid="{DD86D6C7-11B0-4CF6-BE88-DF527C209A57}">
+                                <File Id="arrow_choose_up0096.xnb" Name="arrow_choose_up0096.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0096.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0097.xnb" Guid="{37D305C8-8565-4609-BFF5-9646CBD19592}">
+                                <File Id="arrow_choose_up0097.xnb" Name="arrow_choose_up0097.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0097.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0098.xnb" Guid="{854ED200-DEFC-454A-909D-080E71E9F6B9}">
+                                <File Id="arrow_choose_up0098.xnb" Name="arrow_choose_up0098.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0098.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0099.xnb" Guid="{81881142-B34E-4F91-AFCE-E8C01644A27B}">
+                                <File Id="arrow_choose_up0099.xnb" Name="arrow_choose_up0099.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0099.xnb" />
+                            </Component>
+                            <Component Id="arrow_choose_up0100.xnb" Guid="{24C6A05A-C0C2-4C7A-9E63-C66BB52B69DB}">
+                                <File Id="arrow_choose_up0100.xnb" Name="arrow_choose_up0100.xnb" KeyPath="yes" Source="bin\x86\release\data\images\gui\arrow_choose_up\arrow_choose_up0100.xnb" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                    <Directory Id="hobbies" Name="hobbies">
+                        <Component Id="books.xnb" Guid="{2C7B811F-6072-466D-A669-0AFCA2E2568F}">
+                            <File Id="books.xnb" Name="books.xnb" KeyPath="yes" Source="bin\x86\release\data\images\hobbies\books.xnb" />
+                        </Component>
+                        <Component Id="books_old.xnb" Guid="{19774303-DA17-4A93-A63B-FB5FA3A34A03}">
+                            <File Id="books_old.xnb" Name="books_old.xnb" KeyPath="yes" Source="bin\x86\release\data\images\hobbies\books_old.xnb" />
+                        </Component>
+                        <Component Id="cooking.xnb" Guid="{F43F7161-20B6-4002-AD80-0C31278A65E0}">
+                            <File Id="cooking.xnb" Name="cooking.xnb" KeyPath="yes" Source="bin\x86\release\data\images\hobbies\cooking.xnb" />
+                        </Component>
+                        <Component Id="cooking_old.xnb" Guid="{9E6807D1-8420-46C8-939F-AE2466B51B00}">
+                            <File Id="cooking_old.xnb" Name="cooking_old.xnb" KeyPath="yes" Source="bin\x86\release\data\images\hobbies\cooking_old.xnb" />
+                        </Component>
+                        <Component Id="music.xnb" Guid="{233F43B3-54A3-4B74-B5C8-022C9D36BA9C}">
+                            <File Id="music.xnb" Name="music.xnb" KeyPath="yes" Source="bin\x86\release\data\images\hobbies\music.xnb" />
+                        </Component>
+                        <Component Id="music_old.xnb" Guid="{42851D5A-6BA7-476C-A4A1-34751ACB6C19}">
+                            <File Id="music_old.xnb" Name="music_old.xnb" KeyPath="yes" Source="bin\x86\release\data\images\hobbies\music_old.xnb" />
+                        </Component>
+                        <Component Id="outdoors.xnb" Guid="{14B47265-285C-48B9-97F4-09F47EECC2FB}">
+                            <File Id="outdoors.xnb" Name="outdoors.xnb" KeyPath="yes" Source="bin\x86\release\data\images\hobbies\outdoors.xnb" />
+                        </Component>
+                        <Component Id="outdoors_old.xnb" Guid="{92125800-41A0-4A1C-B1FB-CB28F0C3A4AC}">
+                            <File Id="outdoors_old.xnb" Name="outdoors_old.xnb" KeyPath="yes" Source="bin\x86\release\data\images\hobbies\outdoors_old.xnb" />
+                        </Component>
+                        <Component Id="sports.xnb" Guid="{AD862136-297E-41F3-BAE5-957072B8A4D0}">
+                            <File Id="sports.xnb" Name="sports.xnb" KeyPath="yes" Source="bin\x86\release\data\images\hobbies\sports.xnb" />
+                        </Component>
+                        <Component Id="sports_old.xnb" Guid="{493A4B44-CF54-482F-B8E5-6050548F45B3}">
+                            <File Id="sports_old.xnb" Name="sports_old.xnb" KeyPath="yes" Source="bin\x86\release\data\images\hobbies\sports_old.xnb" />
+                        </Component>
+                        <Component Id="tech.xnb" Guid="{3F3FFD05-AEDB-4604-BD09-69CD95D0CF89}">
+                            <File Id="tech.xnb" Name="tech.xnb" KeyPath="yes" Source="bin\x86\release\data\images\hobbies\tech.xnb" />
+                        </Component>
+                        <Component Id="tech_old.xnb" Guid="{B8842901-0CE5-4BAF-8F6A-8D38921A6716}">
+                            <File Id="tech_old.xnb" Name="tech_old.xnb" KeyPath="yes" Source="bin\x86\release\data\images\hobbies\tech_old.xnb" />
+                        </Component>
+                    </Directory>
+                    <Directory Id="props" Name="props">
+                        <Component Id="arrow_choose_left.xnb" Guid="{9F8DABEE-B872-4E27-8D4F-90435A29FDC3}">
+                            <File Id="arrow_choose_left.xnb" Name="arrow_choose_left.xnb" KeyPath="yes" Source="bin\x86\release\data\images\props\arrow_choose_left.xnb" />
+                        </Component>
+                        <Component Id="arrow_choose_right.xnb" Guid="{97698D76-5F73-4F29-9091-C7865A63502C}">
+                            <File Id="arrow_choose_right.xnb" Name="arrow_choose_right.xnb" KeyPath="yes" Source="bin\x86\release\data\images\props\arrow_choose_right.xnb" />
+                        </Component>
+                        <Component Id="board.xnb" Guid="{56CCFA88-85BC-4D75-8340-CA8F8029D711}">
+                            <File Id="board.xnb" Name="board.xnb" KeyPath="yes" Source="bin\x86\release\data\images\props\board.xnb" />
+                        </Component>
+                        <Component Id="buddie_blink.xnb_2" Guid="{3ADD0914-B5DC-4AAF-A9B2-0909C648176C}">
+                            <File Id="buddie_blink.xnb_2" Name="buddie_blink.xnb" KeyPath="yes" Source="bin\x86\release\data\images\props\buddie_blink.xnb" />
+                        </Component>
+                        <Component Id="clothes_pants.xnb" Guid="{9723069E-EB23-4912-BB8D-DA61131D6024}">
+                            <File Id="clothes_pants.xnb" Name="clothes_pants.xnb" KeyPath="yes" Source="bin\x86\release\data\images\props\clothes_pants.xnb" />
+                        </Component>
+                        <Component Id="clothes_shirts.xnb" Guid="{8DE3FEDF-329D-487A-A201-D62A57D73A21}">
+                            <File Id="clothes_shirts.xnb" Name="clothes_shirts.xnb" KeyPath="yes" Source="bin\x86\release\data\images\props\clothes_shirts.xnb" />
+                        </Component>
+                        <Component Id="clothes_shoes.xnb" Guid="{73FCFD09-06FB-4CC6-BAF2-FA08DB49DE58}">
+                            <File Id="clothes_shoes.xnb" Name="clothes_shoes.xnb" KeyPath="yes" Source="bin\x86\release\data\images\props\clothes_shoes.xnb" />
+                        </Component>
+                        <Component Id="pan.xnb" Guid="{8CF23438-188C-4152-ADC5-800782EBABD3}">
+                            <File Id="pan.xnb" Name="pan.xnb" KeyPath="yes" Source="bin\x86\release\data\images\props\pan.xnb" />
+                        </Component>
+                        <Component Id="shelf.xnb" Guid="{F85A0A7A-F4B0-4198-8742-3867601F67A7}">
+                            <File Id="shelf.xnb" Name="shelf.xnb" KeyPath="yes" Source="bin\x86\release\data\images\props\shelf.xnb" />
+                        </Component>
+                        <Component Id="stovetop.xnb" Guid="{E760574E-D10A-469E-91FE-93C5FD76D229}">
+                            <File Id="stovetop.xnb" Name="stovetop.xnb" KeyPath="yes" Source="bin\x86\release\data\images\props\stovetop.xnb" />
+                        </Component>
+                    </Directory>
+                    <Directory Id="scenes" Name="scenes">
+                        <Component Id="bedroom.xnb" Guid="{4E2C6CE1-7EDA-42D5-8D4F-D45FF60B63B6}">
+                            <File Id="bedroom.xnb" Name="bedroom.xnb" KeyPath="yes" Source="bin\x86\release\data\images\scenes\bedroom.xnb" />
+                        </Component>
+                        <Component Id="cafeteria.xnb" Guid="{7260C5E6-A1A3-4681-A5B5-0CDD91D052EA}">
+                            <File Id="cafeteria.xnb" Name="cafeteria.xnb" KeyPath="yes" Source="bin\x86\release\data\images\scenes\cafeteria.xnb" />
+                        </Component>
+                        <Component Id="field.xnb" Guid="{8345A74B-CAC4-48AD-A63E-A4852701A9E7}">
+                            <File Id="field.xnb" Name="field.xnb" KeyPath="yes" Source="bin\x86\release\data\images\scenes\field.xnb" />
+                        </Component>
+                        <Component Id="house.jpg" Guid="{CB44422A-A98A-4542-AB41-E9FA35E6F262}">
+                            <File Id="house.jpg" Name="house.jpg" KeyPath="yes" Source="bin\x86\release\data\images\scenes\house.jpg" />
+                        </Component>
+                        <Component Id="house.xnb" Guid="{947D2EEB-5849-455C-99C3-002B5F271754}">
+                            <File Id="house.xnb" Name="house.xnb" KeyPath="yes" Source="bin\x86\release\data\images\scenes\house.xnb" />
+                        </Component>
+                        <Component Id="stove_update.xnb" Guid="{AFDB6B2D-54F9-4B60-A770-EF5FC99CFEA5}">
+                            <File Id="stove_update.xnb" Name="stove-update.xnb" KeyPath="yes" Source="bin\x86\release\data\images\scenes\stove-update.xnb" />
+                        </Component>
+                        <Component Id="stove.xnb" Guid="{74CDC0F1-FD80-4655-BBBE-7F03F06D0C6A}">
+                            <File Id="stove.xnb" Name="stove.xnb" KeyPath="yes" Source="bin\x86\release\data\images\scenes\stove.xnb" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="levels" Name="levels">
+                    <Component Id="level1.txscene" Guid="{737130AA-9B79-4CA7-AD57-3B21E46A1785}">
+                        <File Id="level1.txscene" Name="level1.txscene" KeyPath="yes" Source="bin\x86\release\data\levels\level1.txscene" />
+                    </Component>
+                    <Component Id="level2.txscene" Guid="{A636701C-F1D3-4718-AC40-8B0924F6F177}">
+                        <File Id="level2.txscene" Name="level2.txscene" KeyPath="yes" Source="bin\x86\release\data\levels\level2.txscene" />
+                    </Component>
+                    <Component Id="level2test.txscene" Guid="{D88FF698-1956-440A-A07F-E4A555BBF662}">
+                        <File Id="level2test.txscene" Name="level2test.txscene" KeyPath="yes" Source="bin\x86\release\data\levels\level2test.txscene" />
+                    </Component>
+                    <Component Id="level3.bak.txscene" Guid="{9949C721-7F71-4C4A-9114-31C8994C74B8}">
+                        <File Id="level3.bak.txscene" Name="level3.bak.txscene" KeyPath="yes" Source="bin\x86\release\data\levels\level3.bak.txscene" />
+                    </Component>
+                    <Component Id="level3.txscene" Guid="{15797FCE-4184-4C37-9B7E-1B52C4A5E8D7}">
+                        <File Id="level3.txscene" Name="level3.txscene" KeyPath="yes" Source="bin\x86\release\data\levels\level3.txscene" />
+                    </Component>
+                    <Component Id="testLevel.txscene" Guid="{B240E859-748A-42E0-B0B0-C9EDF7F6A11B}">
+                        <File Id="testLevel.txscene" Name="testLevel.txscene" KeyPath="yes" Source="bin\x86\release\data\levels\testLevel.txscene" />
+                    </Component>
+                </Directory>
+                <Directory Id="sound" Name="sound">
+                    <Component Id="main.xgs" Guid="{EB2F93DE-84A4-4D68-ABEB-AD0CA5EC9F9D}">
+                        <File Id="main.xgs" Name="main.xgs" KeyPath="yes" Source="bin\x86\release\data\sound\main.xgs" />
+                    </Component>
+                    <Component Id="Sound_Bank.xsb" Guid="{642A18CC-279A-4FA0-AAFD-850B19C51356}">
+                        <File Id="Sound_Bank.xsb" Name="Sound Bank.xsb" KeyPath="yes" Source="bin\x86\release\data\sound\Sound Bank.xsb" />
+                    </Component>
+                    <Component Id="Wave_Bank.xwb" Guid="{1C5762AF-2090-461A-ABAE-F3B0A658E194}">
+                        <File Id="Wave_Bank.xwb" Name="Wave Bank.xwb" KeyPath="yes" Source="bin\x86\release\data\sound\Wave Bank.xwb" />
+                    </Component>
+                </Directory>
+            </Directory>
+            <Directory Id="Game.publish" Name="Game.publish">
+                <Component Id="autorun.inf" Guid="{25EE88EF-7909-46B9-87CE-F7747C15E5F0}">
+                    <File Id="autorun.inf" Name="autorun.inf" KeyPath="yes" Source="bin\x86\release\Game.publish\autorun.inf" />
+                </Component>
+                <Component Id="Game.application_2" Guid="{EE858F4C-059C-4378-B579-8F697468634D}">
+                    <File Id="Game.application_2" Name="Game.application" KeyPath="yes" Source="bin\x86\release\Game.publish\Game.application" />
+                </Component>
+                <Component Id="setup.exe" Guid="{6549A952-46F2-4B07-ACCB-BD1738EA9A3D}">
+                    <File Id="setup.exe" Name="setup.exe" KeyPath="yes" Source="bin\x86\release\Game.publish\setup.exe" />
+                </Component>
+                <Directory Id="Game_1_0_0_1" Name="Game_1_0_0_1">
+                    <Component Id="Game.exe.deploy" Guid="{2888C272-1711-449E-808F-52EA5091E61D}">
+                        <File Id="Game.exe.deploy" Name="Game.exe.deploy" KeyPath="yes" Source="bin\x86\release\Game.publish\Game_1_0_0_1\Game.exe.deploy" />
+                    </Component>
+                    <Component Id="Game.exe.manifest_2" Guid="{BD795A15-295F-4842-83EF-CFD8121D323F}">
+                        <File Id="Game.exe.manifest_2" Name="Game.exe.manifest" KeyPath="yes" Source="bin\x86\release\Game.publish\Game_1_0_0_1\Game.exe.manifest" />
+                    </Component>
+                    <Component Id="Game.ico.deploy" Guid="{55C3F0B6-A34B-4DB7-BEFB-332C4C59FD87}">
+                        <File Id="Game.ico.deploy" Name="Game.ico.deploy" KeyPath="yes" Source="bin\x86\release\Game.publish\Game_1_0_0_1\Game.ico.deploy" />
+                    </Component>
+                    <Component Id="GarageGames.TorqueX.Framework.dll.deploy" Guid="{38102018-71EC-4751-AADA-419CBD7368E8}">
+                        <File Id="GarageGames.TorqueX.Framework.dll.deploy" Name="GarageGames.TorqueX.Framework.dll.deploy" KeyPath="yes" Source="bin\x86\release\Game.publish\Game_1_0_0_1\GarageGames.TorqueX.Framework.dll.deploy" />
+                    </Component>
+                    <Component Id="Microsoft.Xna.Framework.dll.deploy" Guid="{D8645BCC-11C9-4FA5-B180-0809737A7153}">
+                        <File Id="Microsoft.Xna.Framework.dll.deploy" Name="Microsoft.Xna.Framework.dll.deploy" KeyPath="yes" Source="bin\x86\release\Game.publish\Game_1_0_0_1\Microsoft.Xna.Framework.dll.deploy" />
+                    </Component>
+                    <Component Id="Microsoft.Xna.Framework.Game.dll.deploy" Guid="{86E7EBE9-8D8C-4E6D-9FCC-1806E6F37BF6}">
+                        <File Id="Microsoft.Xna.Framework.Game.dll.deploy" Name="Microsoft.Xna.Framework.Game.dll.deploy" KeyPath="yes" Source="bin\x86\release\Game.publish\Game_1_0_0_1\Microsoft.Xna.Framework.Game.dll.deploy" />
+                    </Component>
+                    <Component Id="torqueSettings.xml.deploy" Guid="{C297CB51-C62A-4351-A479-5533E3661D03}">
+                        <File Id="torqueSettings.xml.deploy" Name="torqueSettings.xml.deploy" KeyPath="yes" Source="bin\x86\release\Game.publish\Game_1_0_0_1\torqueSettings.xml.deploy" />
+                    </Component>
+                    <Directory Id="Docs" Name="Docs">
+                        <Component Id="StarterGame2D.html.deploy" Guid="{EB3FD820-C62D-4CFF-B5DD-D35F8DEEA839}">
+                            <File Id="StarterGame2D.html.deploy" Name="StarterGame2D.html.deploy" KeyPath="yes" Source="bin\x86\release\Game.publish\Game_1_0_0_1\Docs\StarterGame2D.html.deploy" />
+                        </Component>
+                    </Directory>
+                </Directory>
+            </Directory>
+			<Directory Id="DirectXRedistDirectory" Name="dxinst">
+				<Component Id="DirectXRedist" Guid="{717FDBA4-CFF8-11DD-B618-53C256D89593}">
+					<File Id="DXSETUPEXE"
+							Source="bin\x86\dxinst\DXSETUP.exe"
+							KeyPath="yes"
+							Checksum="yes"/>
+					<File Id="dxupdate.cab" Source="bin\x86\dxinst\dxupdate.cab"/>
+					<File Id="dxdllreg_x86.cab" Source="bin\x86\dxinst\dxdllreg_x86.cab"/>
+					<File Id="dsetup32.dll" Source="bin\x86\dxinst\dsetup32.dll"/>
+					<File Id="DSETUP.dll" Source="bin\x86\dxinst\DSETUP.dll"/>
+					<File Id="DEC2006_d3dx9_32_x86.cab" Source="bin\x86\dxinst\DEC2006_d3dx9_32_x86.cab"/>
+					<File Id="OCT2006_d3dx9_31_x86.cab" Source="bin\x86\dxinst\OCT2006_d3dx9_31_x86.cab"/>
+					<File Id="AUG2006_XACT_x86.cab" Source="bin\x86\dxinst\AUG2006_XACT_x86.cab"/>
+					<File Id="APR2007_xinput_x86.cab" Source="bin\x86\dxinst\APR2007_xinput_x86.cab"/>
+					<File Id="APR2007_d3dx9_33_x86.cab" Source="bin\x86\dxinst\APR2007_d3dx9_33_x86.cab"/>
+				</Component>
+			</Directory>
+		</DirectoryRef>
+		<Icon Id="ProductIcon" SourceFile="Game.ico" />
+		<Property Id="ARPPRODUCTICON" Value="ProductIcon" />
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="ComponentGroup1">
+            <ComponentRef Id="Game.application_1" />
+            <ComponentRef Id="Game.exe" />
+            <ComponentRef Id="Game.exe.manifest_1" />
+            <ComponentRef Id="GarageGames.TorqueX.Framework.dll" />
+            <ComponentRef Id="torqueSettings.xml" />
+            <ComponentRef Id="Arial.xnb" />
+            <ComponentRef Id="bubble.xnb" />
+            <ComponentRef Id="happy_hud.xnb" />
+            <ComponentRef Id="speech_bubble.xnb" />
+            <ComponentRef Id="speech_bubble1.xnb" />
+            <ComponentRef Id="speech_bubble2.xnb" />
+            <ComponentRef Id="speech_bubble3.xnb" />
+            <ComponentRef Id="speech_bubble4.xnb" />
+            <ComponentRef Id="biker.xnb" />
+            <ComponentRef Id="buddie_sm.xnb" />
+            <ComponentRef Id="buddie_ani.xnb" />
+            <ComponentRef Id="buddie_blink.xnb_1" />
+            <ComponentRef Id="buddie_orange.xnb" />
+            <ComponentRef Id="classmates.xnb" />
+            <ComponentRef Id="ditzy.xnb" />
+            <ComponentRef Id="goth.xnb" />
+            <ComponentRef Id="jock.xnb" />
+            <ComponentRef Id="nerd.xnb" />
+            <ComponentRef Id="baby_carrot.xnb" />
+            <ComponentRef Id="broccoli.xnb" />
+            <ComponentRef Id="butter_new.xnb" />
+            <ComponentRef Id="chicken.xnb" />
+            <ComponentRef Id="margarine.xnb" />
+            <ComponentRef Id="oil_pan.xnb" />
+            <ComponentRef Id="olive_oil.xnb" />
+            <ComponentRef Id="pepper.xnb" />
+            <ComponentRef Id="pork.xnb" />
+            <ComponentRef Id="potato.xnb" />
+            <ComponentRef Id="scallops.xnb" />
+            <ComponentRef Id="arrow_choose.xnb" />
+            <ComponentRef Id="arrow_choose_up.xnb" />
+            <ComponentRef Id="arrow_choose_up_ani.xnb" />
+            <ComponentRef Id="food_health.xnb" />
+            <ComponentRef Id="food_infobox.xnb" />
+            <ComponentRef Id="food_rate.xnb" />
+            <ComponentRef Id="level2_intro.xnb" />
+            <ComponentRef Id="level_exit.xnb" />
+            <ComponentRef Id="level_lev1.xnb" />
+            <ComponentRef Id="level_lev2.xnb" />
+            <ComponentRef Id="level_lev3.xnb" />
+            <ComponentRef Id="level_levOvr.xnb" />
+            <ComponentRef Id="main_bg.xnb" />
+            <ComponentRef Id="signification.xnb" />
+            <ComponentRef Id="taste_knob.xnb" />
+            <ComponentRef Id="taste_knob_indicator.xnb" />
+            <ComponentRef Id="thought_bubble.xnb" />
+            <ComponentRef Id="arrow_choose_up0001.xnb" />
+            <ComponentRef Id="arrow_choose_up0002.xnb" />
+            <ComponentRef Id="arrow_choose_up0003.xnb" />
+            <ComponentRef Id="arrow_choose_up0004.xnb" />
+            <ComponentRef Id="arrow_choose_up0005.xnb" />
+            <ComponentRef Id="arrow_choose_up0006.xnb" />
+            <ComponentRef Id="arrow_choose_up0007.xnb" />
+            <ComponentRef Id="arrow_choose_up0008.xnb" />
+            <ComponentRef Id="arrow_choose_up0009.xnb" />
+            <ComponentRef Id="arrow_choose_up0010.xnb" />
+            <ComponentRef Id="arrow_choose_up0011.xnb" />
+            <ComponentRef Id="arrow_choose_up0012.xnb" />
+            <ComponentRef Id="arrow_choose_up0013.xnb" />
+            <ComponentRef Id="arrow_choose_up0014.xnb" />
+            <ComponentRef Id="arrow_choose_up0015.xnb" />
+            <ComponentRef Id="arrow_choose_up0016.xnb" />
+            <ComponentRef Id="arrow_choose_up0017.xnb" />
+            <ComponentRef Id="arrow_choose_up0018.xnb" />
+            <ComponentRef Id="arrow_choose_up0019.xnb" />
+            <ComponentRef Id="arrow_choose_up0020.xnb" />
+            <ComponentRef Id="arrow_choose_up0021.xnb" />
+            <ComponentRef Id="arrow_choose_up0022.xnb" />
+            <ComponentRef Id="arrow_choose_up0023.xnb" />
+            <ComponentRef Id="arrow_choose_up0024.xnb" />
+            <ComponentRef Id="arrow_choose_up0025.xnb" />
+            <ComponentRef Id="arrow_choose_up0026.xnb" />
+            <ComponentRef Id="arrow_choose_up0027.xnb" />
+            <ComponentRef Id="arrow_choose_up0028.xnb" />
+            <ComponentRef Id="arrow_choose_up0029.xnb" />
+            <ComponentRef Id="arrow_choose_up0030.xnb" />
+            <ComponentRef Id="arrow_choose_up0031.xnb" />
+            <ComponentRef Id="arrow_choose_up0032.xnb" />
+            <ComponentRef Id="arrow_choose_up0033.xnb" />
+            <ComponentRef Id="arrow_choose_up0034.xnb" />
+            <ComponentRef Id="arrow_choose_up0035.xnb" />
+            <ComponentRef Id="arrow_choose_up0036.xnb" />
+            <ComponentRef Id="arrow_choose_up0037.xnb" />
+            <ComponentRef Id="arrow_choose_up0038.xnb" />
+            <ComponentRef Id="arrow_choose_up0039.xnb" />
+            <ComponentRef Id="arrow_choose_up0040.xnb" />
+            <ComponentRef Id="arrow_choose_up0041.xnb" />
+            <ComponentRef Id="arrow_choose_up0042.xnb" />
+            <ComponentRef Id="arrow_choose_up0043.xnb" />
+            <ComponentRef Id="arrow_choose_up0044.xnb" />
+            <ComponentRef Id="arrow_choose_up0045.xnb" />
+            <ComponentRef Id="arrow_choose_up0046.xnb" />
+            <ComponentRef Id="arrow_choose_up0047.xnb" />
+            <ComponentRef Id="arrow_choose_up0048.xnb" />
+            <ComponentRef Id="arrow_choose_up0049.xnb" />
+            <ComponentRef Id="arrow_choose_up0050.xnb" />
+            <ComponentRef Id="arrow_choose_up0051.xnb" />
+            <ComponentRef Id="arrow_choose_up0052.xnb" />
+            <ComponentRef Id="arrow_choose_up0053.xnb" />
+            <ComponentRef Id="arrow_choose_up0054.xnb" />
+            <ComponentRef Id="arrow_choose_up0055.xnb" />
+            <ComponentRef Id="arrow_choose_up0056.xnb" />
+            <ComponentRef Id="arrow_choose_up0057.xnb" />
+            <ComponentRef Id="arrow_choose_up0058.xnb" />
+            <ComponentRef Id="arrow_choose_up0059.xnb" />
+            <ComponentRef Id="arrow_choose_up0060.xnb" />
+            <ComponentRef Id="arrow_choose_up0061.xnb" />
+            <ComponentRef Id="arrow_choose_up0062.xnb" />
+            <ComponentRef Id="arrow_choose_up0063.xnb" />
+            <ComponentRef Id="arrow_choose_up0064.xnb" />
+            <ComponentRef Id="arrow_choose_up0065.xnb" />
+            <ComponentRef Id="arrow_choose_up0066.xnb" />
+            <ComponentRef Id="arrow_choose_up0067.xnb" />
+            <ComponentRef Id="arrow_choose_up0068.xnb" />
+            <ComponentRef Id="arrow_choose_up0069.xnb" />
+            <ComponentRef Id="arrow_choose_up0070.xnb" />
+            <ComponentRef Id="arrow_choose_up0071.xnb" />
+            <ComponentRef Id="arrow_choose_up0072.xnb" />
+            <ComponentRef Id="arrow_choose_up0073.xnb" />
+            <ComponentRef Id="arrow_choose_up0074.xnb" />
+            <ComponentRef Id="arrow_choose_up0075.xnb" />
+            <ComponentRef Id="arrow_choose_up0076.xnb" />
+            <ComponentRef Id="arrow_choose_up0077.xnb" />
+            <ComponentRef Id="arrow_choose_up0078.xnb" />
+            <ComponentRef Id="arrow_choose_up0079.xnb" />
+            <ComponentRef Id="arrow_choose_up0080.xnb" />
+            <ComponentRef Id="arrow_choose_up0081.xnb" />
+            <ComponentRef Id="arrow_choose_up0082.xnb" />
+            <ComponentRef Id="arrow_choose_up0083.xnb" />
+            <ComponentRef Id="arrow_choose_up0084.xnb" />
+            <ComponentRef Id="arrow_choose_up0085.xnb" />
+            <ComponentRef Id="arrow_choose_up0086.xnb" />
+            <ComponentRef Id="arrow_choose_up0087.xnb" />
+            <ComponentRef Id="arrow_choose_up0088.xnb" />
+            <ComponentRef Id="arrow_choose_up0089.xnb" />
+            <ComponentRef Id="arrow_choose_up0090.xnb" />
+            <ComponentRef Id="arrow_choose_up0091.xnb" />
+            <ComponentRef Id="arrow_choose_up0092.xnb" />
+            <ComponentRef Id="arrow_choose_up0093.xnb" />
+            <ComponentRef Id="arrow_choose_up0094.xnb" />
+            <ComponentRef Id="arrow_choose_up0095.xnb" />
+            <ComponentRef Id="arrow_choose_up0096.xnb" />
+            <ComponentRef Id="arrow_choose_up0097.xnb" />
+            <ComponentRef Id="arrow_choose_up0098.xnb" />
+            <ComponentRef Id="arrow_choose_up0099.xnb" />
+            <ComponentRef Id="arrow_choose_up0100.xnb" />
+            <ComponentRef Id="books.xnb" />
+            <ComponentRef Id="books_old.xnb" />
+            <ComponentRef Id="cooking.xnb" />
+            <ComponentRef Id="cooking_old.xnb" />
+            <ComponentRef Id="music.xnb" />
+            <ComponentRef Id="music_old.xnb" />
+            <ComponentRef Id="outdoors.xnb" />
+            <ComponentRef Id="outdoors_old.xnb" />
+            <ComponentRef Id="sports.xnb" />
+            <ComponentRef Id="sports_old.xnb" />
+            <ComponentRef Id="tech.xnb" />
+            <ComponentRef Id="tech_old.xnb" />
+            <ComponentRef Id="arrow_choose_left.xnb" />
+            <ComponentRef Id="arrow_choose_right.xnb" />
+            <ComponentRef Id="board.xnb" />
+            <ComponentRef Id="buddie_blink.xnb_2" />
+            <ComponentRef Id="clothes_pants.xnb" />
+            <ComponentRef Id="clothes_shirts.xnb" />
+            <ComponentRef Id="clothes_shoes.xnb" />
+            <ComponentRef Id="pan.xnb" />
+            <ComponentRef Id="shelf.xnb" />
+            <ComponentRef Id="stovetop.xnb" />
+            <ComponentRef Id="bedroom.xnb" />
+            <ComponentRef Id="cafeteria.xnb" />
+            <ComponentRef Id="field.xnb" />
+            <ComponentRef Id="house.jpg" />
+            <ComponentRef Id="house.xnb" />
+            <ComponentRef Id="stove_update.xnb" />
+            <ComponentRef Id="stove.xnb" />
+            <ComponentRef Id="level1.txscene" />
+            <ComponentRef Id="level2.txscene" />
+            <ComponentRef Id="level2test.txscene" />
+            <ComponentRef Id="level3.bak.txscene" />
+            <ComponentRef Id="level3.txscene" />
+            <ComponentRef Id="testLevel.txscene" />
+            <ComponentRef Id="main.xgs" />
+            <ComponentRef Id="Sound_Bank.xsb" />
+            <ComponentRef Id="Wave_Bank.xwb" />
+            <ComponentRef Id="autorun.inf" />
+            <ComponentRef Id="Game.application_2" />
+            <ComponentRef Id="setup.exe" />
+            <ComponentRef Id="Game.exe.deploy" />
+            <ComponentRef Id="Game.exe.manifest_2" />
+            <ComponentRef Id="Game.ico.deploy" />
+            <ComponentRef Id="GarageGames.TorqueX.Framework.dll.deploy" />
+            <ComponentRef Id="Microsoft.Xna.Framework.dll.deploy" />
+            <ComponentRef Id="Microsoft.Xna.Framework.Game.dll.deploy" />
+            <ComponentRef Id="torqueSettings.xml.deploy" />
+            <ComponentRef Id="StarterGame2D.html.deploy" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

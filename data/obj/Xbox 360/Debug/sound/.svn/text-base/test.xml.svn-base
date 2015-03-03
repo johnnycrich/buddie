@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="Wave Bank">Wave Bank
+{
+    Name = Wave Bank;
+    Xbox File = Xbox\Wave Bank.xwb;
+    Windows File = Win\Wave Bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 2025546160;
+    PC Bank Last Modified High = 29991415;
+    Bank Last Revised Low = 1085236160;
+    Bank Last Revised High = 29991415;
+
+    Wave
+    {
+        Name = MENU_01;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie Dialogue\Converted\MENU_01.wav;
+        Build Settings Last Modified Low = 941246160;
+        Build Settings Last Modified High = 29991415;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1021952;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4121446336;
+            Last Modified High = 29991204;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

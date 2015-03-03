@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="level3_intro_wave_bank">Wave Bank
+{
+    Name = level3_intro_wave_bank;
+    Xbox File = Xbox\level3_intro_wave_bank.xwb;
+    Windows File = Win\level3_intro_wave_bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = level3_intro_compression;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 2965099397;
+    PC Bank Last Modified High = 30024784;
+    Bank Last Revised Low = 2447895977;
+    Bank Last Revised High = 30024784;
+
+    Wave
+    {
+        Name = kitchen_intro_01;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\kitchen_intro_01.wav;
+        Build Settings Last Modified Low = 393901504;
+        Build Settings Last Modified High = 30004701;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 724992;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = kitchen_intro_02;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\kitchen_intro_02.wav;
+        Build Settings Last Modified Low = 393911504;
+        Build Settings Last Modified High = 30004701;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 475136;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = kitchen_intro_03;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\kitchen_intro_03.wav;
+        Build Settings Last Modified Low = 393961504;
+        Build Settings Last Modified High = 30004701;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 890908;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3813708800;
+            Last Modified High = 30004700;
+        }
+    }
+
+    Wave
+    {
+        Name = kitchen_intro_07;
+        File = ..\..\..\..\..\..\..\Dialogue\Dad\kitchen_intro_07.wav;
+        Build Settings Last Modified Low = 1897432153;
+        Build Settings Last Modified High = 30004885;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1043228;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1207927065;
+            Last Modified High = 30019380;
+        }
+    }
+
+    Wave
+    {
+        Name = kitchen_intro_08;
+        File = ..\..\..\..\..\..\..\Dialogue\Dad\kitchen_intro_08.wav;
+        Build Settings Last Modified Low = 1897492159;
+        Build Settings Last Modified High = 30004885;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 653456;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3667157065;
+            Last Modified High = 30019380;
+        }
+    }
+
+    Wave
+    {
+        Name = kitchen_intro_04;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\kitchen_intro_04.wav;
+        Build Settings Last Modified Low = 2749467348;
+        Build Settings Last Modified High = 30004885;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 573804;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3053708800;
+            Last Modified High = 30004700;
+        }
+    }
+
+    Wave
+    {
+        Name = kitchen_intro_05;
+        File = ..\..\..\..\..\..\..\Dialogue\Dad\kitchen_intro_05.wav;
+        Build Settings Last Modified Low = 3984850874;
+        Build Settings Last Modified High = 30004885;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 562868;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3744759040;
+            Last Modified High = 30004885;
+        }
+    }
+
+    Wave
+    {
+        Name = kitchen_intro_06;
+        File = ..\..\..\..\..\..\..\Dialogue\Dad\kitchen_intro_06.wav;
+        Build Settings Last Modified Low = 3984920881;
+        Build Settings Last Modified High = 30004885;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 884832;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1704759040;
+            Last Modified High = 30004885;
+        }
+    }
+
+    Wave
+    {
+        Name = music;
+        File = ..\..\..\..\..\..\..\Music\Master\L3.wav;
+        Build Settings Last Modified Low = 2213738720;
+        Build Settings Last Modified High = 30017555;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 13085664;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3651189504;
+            Last Modified High = 30016701;
+        }
+    }
+
+    Wave
+    {
+        Name = kitchen_intro_09;
+        File = ..\..\..\..\..\..\..\Dialogue\Dad\kitchen_intro_09.wav;
+        Build Settings Last Modified Low = 2414179235;
+        Build Settings Last Modified High = 30024784;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 552824;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2026701755;
+            Last Modified High = 30024784;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

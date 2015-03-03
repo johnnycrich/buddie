@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="level1_wave_bank">Wave Bank
+{
+    Name = level1_wave_bank;
+    Xbox File = Xbox\level1_wave_bank.xwb;
+    Windows File = Win\level1_wave_bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = level1_compression;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 2226260654;
+    PC Bank Last Modified High = 29991627;
+    Header Last Modified Low = 0;
+    Header Last Modified High = 0;
+    Bank Last Revised Low = 2164010654;
+    Bank Last Revised High = 29991627;
+
+    Wave
+    {
+        Name = bedroom_intro_01;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie Dialogue\Converted\bedroom_intro_01.wav;
+        Build Settings Last Modified Low = 1060150654;
+        Build Settings Last Modified High = 29991627;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 2369536;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4087312923;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = bedroom_intro_02;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie Dialogue\Converted\bedroom_intro_02.wav;
+        Build Settings Last Modified Low = 1060170654;
+        Build Settings Last Modified High = 29991627;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1826816;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4087972989;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = bedroom_intro_03;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie Dialogue\Converted\bedroom_intro_03.wav;
+        Build Settings Last Modified Low = 1060180654;
+        Build Settings Last Modified High = 29991627;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1210368;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4088483040;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = bedroom_intro_04;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie Dialogue\Converted\bedroom_intro_04.wav;
+        Build Settings Last Modified Low = 1060200654;
+        Build Settings Last Modified High = 29991627;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1114112;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4088893081;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = bedroom_intro_05;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie Dialogue\Converted\bedroom_intro_05.wav;
+        Build Settings Last Modified Low = 1060210654;
+        Build Settings Last Modified High = 29991627;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 833536;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4089313123;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = bedroom_intro_06;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie Dialogue\Converted\bedroom_intro_06.wav;
+        Build Settings Last Modified Low = 1060220654;
+        Build Settings Last Modified High = 29991627;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 899072;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4089983190;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = bedroom_intro_07;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie Dialogue\Converted\bedroom_intro_07.wav;
+        Build Settings Last Modified Low = 1060220654;
+        Build Settings Last Modified High = 29991627;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 618496;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4090533245;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = bedroom_intro_08;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie Dialogue\Converted\bedroom_intro_08.wav;
+        Build Settings Last Modified Low = 1060230654;
+        Build Settings Last Modified High = 29991627;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 581632;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4091013293;
+            Last Modified High = 29991204;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

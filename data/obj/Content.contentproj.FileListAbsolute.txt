@@ -1,0 +1,48 @@
+C:\Documents and Settings\john_richardson\Desktop\ClickDrag\Starter Game 2D (2.0)1\Starter Game 2D (2.0)1\Game\data\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\My Documents\Spring 2008\BFA\Project\ClickDrag\Starter Game 2D (2.0)1\Starter Game 2D (2.0)1\Game\data\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\john_richardson\My Documents\BFA\Project\ClickDrag\Starter Game 2D (2.0)1\Starter Game 2D (2.0)1\Game\data\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\My Documents\Spring 2008\BFA\Project\ClickDrag\Starter Game 2D (2.0)1\Starter Game 2D (2.0)1\Game\data\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\john_richardson\My Documents\BFA\Project\ClickDrag\Starter Game 2D (2.0)1\Starter Game 2D (2.0)1\Game\data\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\My Documents\Spring 2008\BFA\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug 360\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\My Documents\Fall 2008\BFA\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug 360\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\My Documents\Fall 2008\BFA\Project\Buddie Main\Buddie\Buddie\Game\data\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Users\John\Documents\Fall 2008\BFA\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\john_richardson\My Documents\BFA\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\John\Documents\Fall 2008\BFA\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\sound\main.xml
+C:\Users\John\Documents\Fall 2008\BFA\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\John\Documents\Fall 2008\BFA\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug\sound\main.xml
+C:\Documents and Settings\John\My Documents\Fall 2008\BFA\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\My Documents\Fall 2008\BFA\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug\sound\main.xml
+C:\Documents and Settings\John\My Documents\Fall 2008\BFA\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\My Documents\Fall 2008\BFA\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\sound\main.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\Xbox 360\Debug\sound\level1.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\Xbox 360\Debug\sound\test.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\Xbox 360\Debug\sound\menu.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\Xbox 360\Debug\sound\music.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug 360\ResolveAssemblyReference.cache
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug 360\sound\level1.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug 360\sound\test.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug 360\sound\menu.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug 360\sound\music.xml
+C:\Documents and Settings\John\My Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\My Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\sound\sfx.xml
+C:\Documents and Settings\John\My Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\sound\level2.xml
+C:\Documents and Settings\John\My Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\sound\main_menu.xml
+C:\Documents and Settings\John\My Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\sound\level1.xml
+C:\Documents and Settings\John\My Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\sound\level4.xml
+C:\Documents and Settings\John\My Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\sound\level3_intro.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\sound\sfx.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\sound\level2.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\sound\main_menu.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\sound\level1.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\sound\level4.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Release\sound\level3_intro.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug\sound\sfx.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug\sound\level2.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug\sound\main_menu.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug\sound\level1.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug\sound\level4.xml
+C:\Users\John\Documents\Buddie's Busy Day\Project\Buddie Main\Buddie\Buddie\Game\data\obj\x86\Debug\sound\level3_intro.xml

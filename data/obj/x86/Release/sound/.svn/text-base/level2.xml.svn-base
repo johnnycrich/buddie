@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="level2_wave_bank">Wave Bank
+{
+    Name = level2_wave_bank;
+    Xbox File = Xbox\level2_wave_bank.xwb;
+    Windows File = Win\level2_wave_bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = level2_compression;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 3996063701;
+    PC Bank Last Modified High = 30021753;
+    Header Last Modified Low = 0;
+    Header Last Modified High = 0;
+    Bank Last Revised Low = 3738333701;
+    Bank Last Revised High = 30021753;
+
+    Wave
+    {
+        Name = cafeteria_01;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_01.wav;
+        Build Settings Last Modified Low = 1085040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1048576;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = cafeteria_02;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_02.wav;
+        Build Settings Last Modified Low = 1095040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 765952;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = cafeteria_03;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_03.wav;
+        Build Settings Last Modified Low = 1095040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 520192;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = cafeteria_04;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_04.wav;
+        Build Settings Last Modified Low = 1095040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 327680;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = cafeteria_05;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_05.wav;
+        Build Settings Last Modified Low = 1095040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 434176;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = cafeteria_06;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_06.wav;
+        Build Settings Last Modified Low = 1105040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 991232;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = cafeteria_intro_01;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_intro_01.wav;
+        Build Settings Last Modified Low = 1105040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1212416;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = cafeteria_intro_02;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_intro_02.wav;
+        Build Settings Last Modified Low = 1105040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 860160;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = tutorial_1_pad;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_tutorial_01_pad.wav;
+        Build Settings Last Modified Low = 1105040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1150912;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3169751808;
+            Last Modified High = 29997852;
+        }
+    }
+
+    Wave
+    {
+        Name = tutorial_1_keyboard;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_tutorial_01_keyboard.wav;
+        Build Settings Last Modified Low = 1125040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1148724;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2129751808;
+            Last Modified High = 29997852;
+        }
+    }
+
+    Wave
+    {
+        Name = tutorial_3_pad;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_tutorial_03_pad.wav;
+        Build Settings Last Modified Low = 1155040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1253376;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = tutorial_3_keyboard;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_tutorial_03_keyboard.wav;
+        Build Settings Last Modified Low = 1155040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1363968;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = cafeteria_intro_09;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_intro_09.wav;
+        Build Settings Last Modified Low = 1165040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 954368;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = cafeteria_results_01;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_results_01.wav;
+        Build Settings Last Modified Low = 1165040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1177600;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = cafeteria_results_02;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_results_02.wav;
+        Build Settings Last Modified Low = 1165040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1040384;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = cafeteria_results_03;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_results_03.wav;
+        Build Settings Last Modified Low = 1165040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 1454080;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4112335616;
+            Last Modified High = 29991204;
+        }
+    }
+
+    Wave
+    {
+        Name = tutorial_2_keyboard;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_tutorial_02_keyboard.wav;
+        Build Settings Last Modified Low = 1165040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 497868;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2334784512;
+            Last Modified High = 29997853;
+        }
+    }
+
+    Wave
+    {
+        Name = tutorial_2_pad;
+        File = ..\..\..\..\..\..\..\Dialogue\Buddie\cafeteria_tutorial_02_pad.wav;
+        Build Settings Last Modified Low = 1195040;
+        Build Settings Last Modified High = 29998260;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 446528;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1414784512;
+            Last Modified High = 29997853;
+        }
+    }
+
+    Wave
+    {
+        Name = music;
+        File = ..\..\..\..\..\..\..\Music\Master\L2.wav;
+        Build Settings Last Modified Low = 1221058720;
+        Build Settings Last Modified High = 30017555;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 9236928;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4271189504;
+            Last Modified High = 30016701;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>
